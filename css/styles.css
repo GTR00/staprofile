@@ -1,3 +1,11 @@
+ 
+p{
+    font-family: 'stratos';
+}
+
+
+/*      NAV BAR      */
+
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -8,12 +16,22 @@
 .navbar-nav > li {
     display: inline-block;
     float:none;
+    font-size: 2em;
 }
 
-nav ul>li>a {font-size: 1.5em;}
+@media (min-width: 992px) { 
+    .navbar-nav > li {
+        /* font-size: 3.0em; */
+        color: red;
+        padding-right: 2em;
+    }
+
+nav ul>li>a {
+    font-size: 1.5em;
+}
 
 nav ul>li>img{
-    width: 50%;
+    width: 40%;
 }
 
 .frontpage{
@@ -22,7 +40,7 @@ nav ul>li>img{
 
 }
 
-ul li:nth-child(1){
+/* ul li:nth-child(3){
    
     padding-right: .55em;
 }
@@ -30,4 +48,74 @@ ul li:nth-child(1){
 ul li:nth-child(4){
    
     padding-right: .55em;
+} */
+
+/*      NAV BAR      */
+
+
+
+.content-wrapper{
+    width: 80%;
+    margin: 4%10% 5% 10%;
 }
+
+.content-wrapper img{
+    width: 100%;
+}
+
+.bg-image-container {
+    position: relative;
+    /* height: 100%; */
+
+}
+
+.img-tint {
+    /* background-image: url(../img/stabg2.jpg);
+    height: 100%; */
+}
+
+/* .img-tint:after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    background: rgba(255, 0, 92, 0.7);
+} */
+.centered-text-over-image {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    content: '';
+
+}
+
+.centered-text-over-image > img {
+    width: 80%;
+  
+
+   /* Medium devices (tablets, 768px and up) */
+/* @media (max-width: 1000px) { 
+    .centered-text-over-image > h2 {
+        font-size: 3.0em;
+        color: red;
+    } */
+ }
+
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -50%;
+}
+
+.text-wrapper h1{
+    text-align:left;
+    padding-left: 3em;
+    margin-bottom: 5em;
+    color:white;
+    font-size: 3.5em;
+    font-family: 'adobe caslon pro';
+
+}
+
