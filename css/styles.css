@@ -1,121 +1,106 @@
  
 p{
     font-family: 'stratos';
+   
 }
 
-
+.paralg{
+    font-family: 'stratos';
+    font-size: 1.4em;
+}
 /*      NAV BAR      */
 
 .navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
-}
-
-.navbar-nav > li {
     display: inline-block;
-    float:none;
-    font-size: 2em;
-}
+   }
 
-@media (min-width: 992px) { 
-    .navbar-nav > li {
-        /* font-size: 3.0em; */
-        color: red;
-        padding-right: 2em;
-    }
-
-nav ul>li>a {
-    font-size: 1.5em;
-}
-
-nav ul>li>img{
-    width: 40%;
-}
-
-.frontpage{
-     
-    height: 50%;
-
-}
-
-/* ul li:nth-child(3){
-   
-    padding-right: .55em;
-}
-
-ul li:nth-child(4){
-   
-    padding-right: .55em;
-} */
-
-/*      NAV BAR      */
-
-
-
-.content-wrapper{
-    width: 80%;
-    margin: 4%10% 5% 10%;
-}
-
-.content-wrapper img{
+ul.navbar-nav {
+    text-align: center;
     width: 100%;
 }
 
-.bg-image-container {
-    position: relative;
-    /* height: 100%; */
+.navbar-nav li {
+   display: inline-block;
+   font-size: 1.5em;
+   padding-right: 1em;
 
 }
 
-.img-tint {
-    /* background-image: url(../img/stabg2.jpg);
-    height: 100%; */
-}
-
-/* .img-tint:after {
-    content: '';
+.headerstartlogo{
     position: absolute;
-    width: inherit;
-    height: inherit;
-    top: 0;
-    left: 0;
-    background: rgba(255, 0, 92, 0.7);
-} */
+    top: 50%;
+    left:0%;
+    
+    
+}
+
+.logosize{
+    width:65%;
+}
 .centered-text-over-image {
     position: absolute;
     top: 20%;
-    left: 2%;
+    right: 0%;
     content: '';
-
 }
 
-.centered-text-over-image > img {
-    width: 80%;
+
   
-
-   /* Medium devices (tablets, 768px and up) */
-/* @media (max-width: 1000px) { 
-    .centered-text-over-image > h2 {
-        font-size: 3.0em;
-        color: red;
-    } */
- }
-
-.text-wrapper{
-    width: 100%;
-    position: relative;
-    margin-top: -50%;
-}
-
-.text-wrapper h1{
-    text-align:left;
-    padding-left: 3em;
-    margin-bottom: 5em;
-    color:white;
-    font-size: 3.5em;
+.titlehead{
     font-family: 'adobe caslon pro';
-
+    font-size: 5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
+.italblueprayer{
+    color: blue;
+    font-style: italic;
+    padding: 1.8em 4em 3em 4em;
+}
+
+hr{
+    padding: 4em 0em 4em 0em;
+}
+
+.col-pad{
+    padding:2em;
+}
+
+.noimagemobile{
+    /* display: block; */
+    
+}
+
+@media (max-width: 991.98px) { 
+    .italblueprayer{
+        color: blue;
+        font-size: 1em;
+        font-style: italic;
+        padding: 2em 2em 3em 2em;
+    }
+
+    .paralg{
+        font-family: 'stratos';
+        font-size: 1em;
+    }
+
+    .titlehead{
+        font-family: 'adobe caslon pro';
+        font-size: 2.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+
+    .noimagemobile{
+        display: none !important;
+    }
+
+    .navbar-nav {
+        display: block;
+        text-align: center;
+    }
+        .headerstartlogo{
+            top: 0;
+        }
+}
