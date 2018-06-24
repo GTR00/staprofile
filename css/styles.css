@@ -1,183 +1,245 @@
- 
-p{
-    font-family: 'stratos';
-   
+ p {
+     font-family: 'stratos';
+     font-size: 1.5em;
+ }
+
+h1{
+    font-family: 'adobe caslon pro';
+    
+}
+nav.navbar.navbar-dark{
+    background-color: #0B4D9C;
+    color: white !important;
 }
 
-.paralg{
-    font-family: 'stratos';
-    font-size: 1.4em;
-}
-/*      NAV BAR      */
 
-.navbar-nav {
-    display: inline-block;
-   }
 
-ul.navbar-nav {
+ .update-h1 h1{
+    font-size: 5em; 
     text-align: center;
-    width: 100%;
+    margin-bottom: 1em;
 }
 
-.navbar-nav li {
-   display: inline-block;
-   font-size: 1.5em;
-   padding-right: 1em;
-
+.update-date{
+    text-align: center;
+    color: #0B4D9C;
+    margin-bottom: 2em;
+    font-size: 2em;
 }
 
-.headerstartlogo{
-    position: absolute;
-    top: 50%;
-    left:0%;
+/* .container-committee{
+    width:190px;
+    padding: 0px; */
     
     
+
+
+.container-committee img{
+    max-height:max;
+    width: auto;
+}
+
+.photo-caption{
+    font-size: 1em;
+   background-color: none;
+     
+}
+
+
+ /* .paralg {
+     font-family: 'stratos';
+     font-size: 1.4em;
+ } */
+
+ /*      NAV BAR      */
+
+ .navbar-nav {
+     display: inline-block;
+ }
+
+ ul.navbar-nav {
+     text-align: center;
+     width: 100%;
+ }
+
+ .navbar-nav > li.nav-item {
+     display: inline-block;
+     font-size: 1.5em;
+     padding-right: 1em;
+     
+ }
+
+ .navbar-nav > li.nav-item > a {
+    color: rgba(255, 255, 255, 1.0) !important;
 }
 
 
 
-.front-image{
-width:"100%";
-margin-bottom: 6em;
+ .headerstartlogo {
+     position: absolute;
+     top: 50%;
+     left: 0%;
+ }
+
+ .front-image {
+     width: "100%";
+     margin-bottom: 6em;
+ }
+
+
+ .card{
+     min-width: 200px;
+     max-width: 250px;
+     margin-bottom: 1.5em !important;
+ }
+
+ .card>img{
+     max-width: 176px;
+     max-height: 232px;
+     /* padding: 1.2em; */
+    /* margin: 1em; */
+ }
+
+.card-deck.bottom-row-card{
+    margin-top: -3.6em !important; 
 }
 
-.logosize{
-    width:65%;
-}
-.centered-text-over-image {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    /* content: ''; */
-}
 
-.rowHeigth{
-    margin-bottom:-5em;
-}
-  
-.titlehead{
-    font-family: 'adobe caslon pro';
-    font-size: 5em;
-    /* padding-top: .5em; */
-    padding-bottom: .5em;
-}
+ .logosize {
+     width: 65%;
+ }
 
-.whitetitlehead{
-    font-family: 'adobe caslon pro';
-    font-size: 5em;
-    /* padding-top: .5em;
+ .centered-text-over-image {
+     position: absolute;
+     top: 20%;
+     left: 10%;
+     /* content: ''; */
+ }
+
+ .rowHeigth {
+     margin-bottom: -5em;
+ }
+
+ .titlehead {
+     font-family: 'adobe caslon pro';
+     font-size: 5em;
+     /* padding-top: .5em; */
+     padding-bottom: .5em;
+ }
+
+ .whitetitlehead {
+     font-family: 'adobe caslon pro';
+     font-size: 5em;
+     /* padding-top: .5em;
     padding-bottom: .5em; */
-    color: white;
-    
-    
-}
+     color: white;
+ }
 
-.readmore p{
+ .readmore p {
+     font-size: 2em;
+     font-family: 'adobe caslon pro';
+ }
 
-   font-size: 2em;
-   font-family: 'adobe caslon pro';
-}
+ .italblueprayer {
+     color: blue;
+     font-style: italic;
+     padding: 1.8em 4em 3em 4em;
+ }
 
-.italblueprayer{
-    color: blue;
-    font-style: italic;
-    padding: 1.8em 4em 3em 4em;
-}
+ hr {
+     margin-top: 6em;
+     padding: 4em 0em 0em 0em;
+ }
 
-hr{
-    margin-top:6em;
-    padding: 4em 0em 0em 0em;
-}
+ .col-pad {
+     padding: 2em;
+ }
 
-.col-pad{
-    padding:2em;
-}
-
-/* .update-card{
+ /* .update-card{
     float: left;
     margin: 1em 1em 1em 1em;
     
 }  */
 
-.noimagemobile{
-    /* display: block; */
+footer{
+    background-color:#0B4D9C;
+    height: 250px;
+    width:100%
+}
+
+footer i{
+    color:white;
+    
+    
     
 }
 
-@media (max-width: 991.98px) { 
-    .italblueprayer{
-        color: blue;
-        font-size: 1em;
-        font-style: italic;
-        padding: 2em 2em 3em 2em;
-    }
+footer p{
+    color:white;
+    text-align: center;
+    
+}
 
-    .paralg{
-        font-family: 'stratos';
-        font-size: 1em;
-    }
-
-    .titlehead{
-        font-family: 'adobe caslon pro';
-        font-size: 3.5em;
-        padding-top: .5em;
-        padding-bottom: .5em;
-    }
-
-    .noimagemobile{
-        display: none !important;
-    }
-
-    .navbar-nav {
-        display: block;
-        text-align: center;
-    }
-        .headerstartlogo{
-            top: 0;
-        }
-
-       
-    .whitetitlehead{
-            font-family: 'adobe caslon pro';
-            font-size: 3.5em;
-            /* padding-top: .5em;
+ @media (max-width: 991.98px) {
+     .italblueprayer {
+         color: blue;
+         font-size: 1em;
+         font-style: italic;
+         padding: 2em 2em 3em 2em;
+     }
+     .paralg {
+         font-family: 'stratos';
+         font-size: 1em;
+     }
+     .titlehead {
+         font-family: 'adobe caslon pro';
+         font-size: 3.5em;
+         padding-top: .5em;
+         padding-bottom: .5em;
+     }
+     .noimagemobile {
+         display: none !important;
+     }
+     .navbar-nav {
+         display: block;
+         text-align: center;
+     }
+     .headerstartlogo {
+         top: 0;
+     }
+     .whitetitlehead {
+         font-family: 'adobe caslon pro';
+         font-size: 3.5em;
+         /* padding-top: .5em;
             padding-bottom: .5em; */
-            color: white;
-        }
-
-    }
-
-
-    @media (max-width: 767.98px) { 
-        .whitetitlehead{
-            font-family: 'adobe caslon pro';
-            font-size: 2em;
-            color: white;
-        }
-        
-        .centered-text-over-image {
-            position: absolute;
-            top: 15%;
-            left: 10%;
-            content: '';
-        }
-        
+         color: white;
      }
+ }
 
-
-    @media (max-width: 575.98px) { 
-
-        .whitetitlehead{
-            font-family: 'adobe caslon pro';
-            font-size: 1.7em;
-            color: white;
-        }
-        
-        
-        .centered-text-over-image {
-            position: absolute;
-            top: 12%;
-            left: 10%;
-            content: '';
-        }
+ @media (max-width: 767.98px) {
+     .whitetitlehead {
+         font-family: 'adobe caslon pro';
+         font-size: 2em;
+         color: white;
      }
+     .centered-text-over-image {
+         position: absolute;
+         top: 15%;
+         left: 10%;
+         content: '';
+     }
+ }
+
+ @media (max-width: 575.98px) {
+     .whitetitlehead {
+         font-family: 'adobe caslon pro';
+         font-size: 1.7em;
+         color: white;
+     }
+     .centered-text-over-image {
+         position: absolute;
+         top: 12%;
+         left: 10%;
+         content: '';
+     }
+ }
