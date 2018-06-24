@@ -8,8 +8,8 @@ h1{
     
 }
 nav.navbar.navbar-dark{
-    background-color: #0B4D9C;
-    color: white !important;
+    background-color: white;
+    color: #4d4d4d !important;
 }
 
 
@@ -70,7 +70,7 @@ nav.navbar.navbar-dark{
  }
 
  .navbar-nav > li.nav-item > a {
-    color: rgba(255, 255, 255, 1.0) !important;
+    color: rgba(59, 59, 59, 1.0) !important;
 }
 
 
@@ -106,7 +106,7 @@ nav.navbar.navbar-dark{
 
 
  .logosize {
-     width: 65%;
+     width: 70%;
  }
 
  .centered-text-over-image {
@@ -161,6 +161,10 @@ nav.navbar.navbar-dark{
     
 }  */
 
+figcaption{
+    font-size: 1.5em;
+}
+
 footer{
     background-color:#0B4D9C;
     height: 250px;
@@ -169,18 +173,38 @@ footer{
 
 footer i{
     color:white;
-    
-    
-    
+   
+}
+
+
+div.flow-shape{ 
+    shape-outside: url("img/Carol.jpg");
+    float: left; 
+    max-width: 20%;
+    min-width: 15%;
 }
 
 footer p{
     color:white;
     text-align: center;
+    font-family: 'adobe caslon pro';
     
 }
 
- @media (max-width: 991.98px) {
+ 
+@media (max-width: 1199.98px) {
+   div.col-xl-12>p{
+       /* max-width: 80%; */
+       float: right;
+   }
+
+   div.flow-shape{ 
+    shape-outside: url("img/Carol.jpg");
+    max-width: 20%;
+}
+}
+
+@media (max-width: 991.98px) {
      .italblueprayer {
          color: blue;
          font-size: 1em;
@@ -214,7 +238,18 @@ footer p{
             padding-bottom: .5em; */
          color: white;
      }
+     div.col-xl-12>p{
+        max-width: 80%;
+        float: right;
+    }
+ 
+    div.flow-shape{ 
+     shape-outside: url("img/Carol.jpg");
+     max-width: 20%;
  }
+ 
+ 
+    }
 
  @media (max-width: 767.98px) {
      .whitetitlehead {
