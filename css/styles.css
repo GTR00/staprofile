@@ -1,12 +1,17 @@
  p {
      font-family: 'stratos';
+<<<<<<< HEAD
      font-size: 1.2em;
+=======
+     font-size: 1.5em;
+>>>>>>> bfe7d63ab6f9dbfaeb8aa9b3f907d6f79ed6b55b
  }
 
 h1{
     font-family: 'adobe caslon pro';
     
 }
+<<<<<<< HEAD
 
 h3{
     font-family:'adobe caslon pro';
@@ -20,6 +25,8 @@ li{
 }
 
 
+=======
+>>>>>>> bfe7d63ab6f9dbfaeb8aa9b3f907d6f79ed6b55b
 nav.navbar.navbar-dark{
     background-color: white;
     color: #4d4d4d !important;
@@ -30,7 +37,11 @@ nav.navbar.navbar-dark{
  .update-h1 h1{
     font-size: 5em; 
     text-align: center;
+<<<<<<< HEAD
     margin-bottom: .3em;
+=======
+    margin-bottom: 1em;
+>>>>>>> bfe7d63ab6f9dbfaeb8aa9b3f907d6f79ed6b55b
 }
 
 .update-date{
@@ -95,9 +106,14 @@ nav.navbar.navbar-dark{
  }
 
  .front-image {
+<<<<<<< HEAD
      width: '100%';
      height: '600px';
      margin-bottom: 3em;
+=======
+     width: "100%";
+     margin-bottom: 6em;
+>>>>>>> bfe7d63ab6f9dbfaeb8aa9b3f907d6f79ed6b55b
  }
 
 
@@ -206,7 +222,11 @@ footer p{
 }
 
 
+<<<<<<< HEAD
 /* .counters{
+=======
+.counters{
+>>>>>>> bfe7d63ab6f9dbfaeb8aa9b3f907d6f79ed6b55b
     counter-reset: counter-name;
 }
 
@@ -232,7 +252,11 @@ footer p{
          }
 
 
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> bfe7d63ab6f9dbfaeb8aa9b3f907d6f79ed6b55b
 
 
 @media (max-width: 1199.98px) {
