@@ -1,0 +1,66 @@
+h1{
+    font-family:'adobe caslon pro';
+    font-size: 4em;
+}
+
+.nav-link {
+    color:white !important;
+    font-family: 'stratos';
+    font-size: 1.2em;
+
+}
+
+.btn-primary{
+    background-color: blue !important;
+}
+
+.index-bg-img{
+width:100%;
+}
+
+.centered-text-over-image {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .noimagemobile {
+        display: none !important;
+    }
+
+    .position-hero-text{
+        font-size:3em;
+        text-align: center;
+
+    }
+    .centered-text-over-image {
+        position: absolute;
+        top: 5%;
+        left: 18%;
+        color:white;
+    }
+}
+
+@media (max-width: 733.98px) {
+    .position-hero-text{
+        font-size:2em;
+        text-align: center;
+
+    }
+    /* .centered-text-over-image {
+        position: absolute;
+        top: 5%;
+        left: 18%;
+        color:white;
+    } */
+}
