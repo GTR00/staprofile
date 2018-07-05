@@ -3,6 +3,25 @@ h1{
     font-size: 4em;
 }
 
+h3{
+    font-family:'adobe caslon pro';
+    font-size: 2em;
+}
+p{
+    font-family:'stratos';
+    font-size: 1.3em;
+}
+
+
+/*---------------------------*/
+.update-section-style{
+    font-size: .8em !important;
+}
+
+
+
+
+/*--------- NAV BAR -----------*/
 .nav-link {
     color:white !important;
     font-family: 'stratos';
@@ -11,9 +30,15 @@ h1{
 }
 
 .btn-primary{
-    background-color: blue !important;
+    background-color: #0B4D9C !important;
 }
 
+
+
+/*--------------------------*/
+
+
+/*---------HERO IMAGE--------*/
 .index-bg-img{
 width:100%;
 }
@@ -25,9 +50,30 @@ width:100%;
     color:white;
 }
 
+/*--------------------------*/
 
 
 
+
+/*--------FOOTER-----------*/
+
+footer{
+    background-color:#0B4D9C;
+    height: 250px;
+    width:100%
+}
+
+footer i{
+    color:white;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+    font-family: 'adobe caslon pro';
+    
+}
+/*--------------------------*/
 
 
 
@@ -48,6 +94,12 @@ width:100%;
         top: 5%;
         left: 18%;
         color:white;
+    }
+
+    .nav-color-menubg{
+        background-color: #0B4D9C !important;
+        /* width: 300px; */
+       
     }
 }
 
