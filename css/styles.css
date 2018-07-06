@@ -1,28 +1,44 @@
+
+/*------- GLOBAL --------*/
 h1{
     font-family:'adobe caslon pro';
-    font-size: 4em;
+    font-size: 3em;
 }
 
 h3{
     font-family:'adobe caslon pro';
     font-size: 2em;
 }
+
+h4{
+    font-family:'stratos';
+    
+}
 p{
     font-family:'stratos';
     font-size: 1.3em;
 }
+/*----------------------------*/
+
+/*--- Extra Padding/Margins ---*/
+.mt-more{
+    margin-top: 3em;
+    padding-top:3em;
+}
+
+/*----------------------------*/
 
 
-/*---------------------------*/
+/*-------- Front Page ---------*/
 .update-section-style{
     font-size: .8em !important;
 }
 
-
+/*------------------------------*/
 
 
 /*--------- NAV BAR -----------*/
-.nav-link {
+.nav-link-color {
     color:white !important;
     font-family: 'stratos';
     font-size: 1.2em;
@@ -33,7 +49,15 @@ p{
     background-color: #0B4D9C !important;
 }
 
+.nav-alt-link-color{
+    color:black !important;
+    font-family: 'stratos';
+    font-size: 1.2em;
+}
 
+.nav-bgcolor{
+    background-color:white;
+}
 
 /*--------------------------*/
 
@@ -52,7 +76,20 @@ width:100%;
 
 /*--------------------------*/
 
+/*------ About Page ---------*/
+.srchimg-resize{
+    width: 100%;
+    
+}
 
+.accordian-cardHeadColor{
+    background-color: white !important;
+}
+.accordian-cardBodyColor{
+    background-color:#0B4D9C !important;
+    color: white;
+}
+/*--------------------------*/
 
 
 /*--------FOOTER-----------*/
