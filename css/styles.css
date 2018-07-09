@@ -93,6 +93,136 @@ width:100%;
     background-color:#0B4D9C !important;
     color: white;
 }
+
+
+/*--------About Search Accordian Colors-------*/
+.red-profile{
+    background-color: white !important;
+    
+
+}
+
+#headingOne:hover{
+    text-decoration: none !important;
+    background-color: #f73955 !important;
+    color: white !important;
+    transition: 0.4s;
+    
+    
+}
+
+#headingOne:hover>h5>button.btn-link{
+    text-decoration: none !important;
+    color: white !important;
+    transition: 0.4s;
+    
+    
+}
+
+.blue-profile{
+    background-color: white !important;
+    
+
+}
+
+#headingTwo:hover{
+    text-decoration: none !important;
+    background-color: #0071bd !important;
+    color: white !important;
+    transition: 0.4s;
+    
+    
+}
+
+#headingTwo:hover>h5>button.btn-link{
+    text-decoration: none !important;
+    color: white !important;
+    transition: 0.4s;
+}
+
+.brown-profile{
+    background-color: white !important;
+    
+
+}
+
+#headingThree:hover{
+    text-decoration: none !important;
+    background-color: #5e292f !important;
+    color: white !important;
+    transition: 0.4s;
+    
+    
+}
+
+#headingThree:hover>h5>button.btn-link{
+    text-decoration: none !important;
+    color: white !important;
+    transition: 0.4s;
+}
+
+.purple-profile{
+    background-color: white !important;
+    
+
+}
+
+#headingFour:hover{
+    text-decoration: none !important;
+    background-color: #9f005d !important;
+    color: white !important;
+    transition: 0.4s;
+    
+    
+}
+
+#headingFour:hover>h5>button.btn-link{
+    text-decoration: none !important;
+    color: white !important;
+    transition: 0.4s;
+}
+
+.green-profile{
+    background-color: white !important;
+    
+
+}
+
+#headingFive:hover{
+    text-decoration: none !important;
+    background-color: #006837 !important;
+    color: white !important;
+    transition: 0.4s;
+    
+    
+}
+
+#headingFive:hover>h5>button.btn-link{
+    text-decoration: none !important;
+    color: white !important;
+    transition: 0.4s;
+}
+
+.dPurple-profile{
+    background-color: white !important;
+    
+
+}
+
+#headingSix:hover{
+    text-decoration: none !important;
+    background-color: #662e91 !important;
+    color: white !important;
+    transition: 0.4s;
+    
+    
+}
+
+#headingSix:hover>h5>button.btn-link{
+    text-decoration: none !important;
+    color: white !important;
+    transition: 0.4s;
+}
 /*--------------------------*/
 
 
