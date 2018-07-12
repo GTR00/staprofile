@@ -94,6 +94,9 @@ width:100%;
     color: white;
 }
 
+.aboutBG-Hero{
+    background-image: url(img/clergyOrdinationBishop.jpg)
+}
 
 /*--------About Search Accordian Colors-------*/
 .red-profile{
