@@ -81,7 +81,7 @@ width:100%;
 /*--------------------------*/
 
 /*------ About Page ---------*/
-.srchimg-resize{
+.img-maxwidth{
     width: 100%;
     
 }
@@ -89,7 +89,7 @@ width:100%;
 .accordian-cardHeadColor{
     background-color: white !important;
 }
-.accordian-cardBodyColor{
+.blue-bg{
     background-color:#0B4D9C !important;
     color: white;
 }
@@ -271,6 +271,10 @@ footer p{
         background-color: #0B4D9C !important;
         /* width: 300px; */
        
+    }
+
+    .no-mobile-img{
+        display:none;
     }
 }
 
