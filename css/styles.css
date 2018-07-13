@@ -78,12 +78,17 @@ width:100%;
     color:white;
 }
 
+
 /*--------------------------*/
 
 /*------ About Page ---------*/
 .img-maxwidth{
     width: 100%;
     
+}
+
+.search-process-img{
+    margin-top: -6.5em;
 }
 
 .accordian-cardHeadColor{
@@ -94,18 +99,23 @@ width:100%;
     color: white;
 }
 
-.aboutBG-Hero{
-    background-image: url(img/clergyOrdinationBishop.jpg)
+.hero-img{
+    background-image: url('../img/clergyOrdinationBishop.jpg');
+    height: 1080px;
+    
+    
+
 }
 
 /*--------About Search Accordian Colors-------*/
 .red-profile{
     background-color: white !important;
-    
+
 
 }
 
-#headingOne:hover{
+
+#headingOne:hover, #headingOne > h5 > button.show {
     text-decoration: none !important;
     background-color: #f73955 !important;
     color: white !important;
@@ -114,18 +124,34 @@ width:100%;
     
 }
 
+ /* {
+    background-color: #f73955 !important;
+} */
+
+
+/* .btn-lnk .collapsed  {
+    text-decoration: none !important;
+    background-color: #bada55 !important;
+    color: #222 !important;
+    transition: 0.4s;    
+} */
+
 #headingOne:hover>h5>button.btn-link{
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
-    
-    
+
 }
+
 
 .blue-profile{
     background-color: white !important;
     
 
+}
+
+div.accordion .btn{
+    padding: 0;
 }
 
 #headingTwo:hover{
@@ -137,7 +163,7 @@ width:100%;
     
 }
 
-#headingTwo:hover>h5>button.btn-link{
+#headingTwo:hover>h4{
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
