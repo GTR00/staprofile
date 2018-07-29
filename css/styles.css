@@ -1,9 +1,16 @@
 
 /*------- GLOBAL --------*/
-h1{
+
+body {
+    position: relative;
+}
+
+h1, h2{
     font-family:'adobe caslon pro';
     font-size: 3em;
 }
+
+
 
 h3{
     font-family:'adobe caslon pro';
@@ -275,8 +282,20 @@ footer p{
 }
 /*--------------------------*/
 
+/*-------Scroll SPy Profile Page-----*/
 
+.scroll-text-body{
+    position: relative;
+    overflow-y: scroll;
+}
 
+.scroll-toc{
+    position: webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow: auto;
+}
 
 
 @media (max-width: 991.98px) {
