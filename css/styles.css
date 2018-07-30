@@ -21,9 +21,17 @@ h4{
     font-family:'stratos';
     
 }
+
+h5{
+    font-size:1.3em;
+    font-family:'roboto';
+}
 p{
-    font-family:'stratos';
-    font-size: 1.3em;
+    font-family:'roboto';
+    font-size: 1.35em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 155%
 }
 /*----------------------------*/
 
@@ -36,6 +44,11 @@ p{
     padding-left: 4em;
     padding-right: 4em;
     padding-top: 2.5em;
+}
+
+.p-more-quote{
+   padding: 0em 3em 3em 3em;
+
 }
 /*----------------------------*/
 
@@ -51,7 +64,7 @@ p{
 /*--------- NAV BAR -----------*/
 .nav-link-color {
     color:white !important;
-    font-family: 'stratos';
+    font-family: 'roboto';
     font-size: 1.2em;
 
 }
@@ -69,6 +82,42 @@ p{
 .nav-bgcolor{
     background-color:white;
 }
+
+
+/**************  SHRINK LOGO CSS ON SCROLL  *****************/
+
+li.nav-item.pl-3.noimagemobile {
+    width: 7em;    
+}
+#nav-logo-size {
+    transition: all 0.3s
+}
+
+.fullSizeLogo {
+    width: 100%;
+}
+
+.resizedLogo {
+    width: 50%;
+    margin-left: 27%;
+}
+
+#nav-container {
+    transition: background-color 0.6s !important;
+    background-color: rgba(255,255,255,0.45);
+}
+
+.nav-bg-top {
+    background-color: rgba(255,255,255,0.45) !important;
+}
+
+.nav-bg-scrolled-down {
+    background-color: rgba(255,255,255,1) !important;
+}
+
+
+
+/************* END SHRINK LOGO CSS ON SCROLL  ***************/
 
 /*--------------------------*/
 
@@ -282,7 +331,9 @@ footer p{
 }
 /*--------------------------*/
 
-/*-------Scroll SPy Profile Page-----*/
+/*-------Profile Page-----*/
+
+/*--Scroll Spy--*/
 
 .scroll-text-body{
     position: relative;
@@ -296,6 +347,67 @@ footer p{
     height: calc(100vh - 4rem);
     overflow: auto;
 }
+
+.scrollspy-background{
+    background: rgb(12,98,170);
+background: linear-gradient(145deg, rgba(12,98,170,1) 0%, rgba(124,11,156,0.6554184173669468) 81%);
+}
+
+#navbar-search-body li.nav-item>a.nav-link{
+    color:white !important;
+    
+}
+
+
+/*--Hero Image--*/
+
+.profile-hero-img{
+    background-image: url('../img/clergyOrdinationBishop.jpg');
+    height: 60vh;
+    background-attachment: fixed;
+}
+
+
+.profile-incopy-img{
+    width:500px;
+    padding-right: 2em;
+    padding-top:2em;
+}
+
+/*--Fixed BG Images--*/
+
+
+.cd-scrolling-bg {
+    position: relative;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    font-size: 1.25em;
+
+  }
+
+
+  .cd-fixed-bg {  
+    min-height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--1 {
+    background-image: url("https://picsum.photos/1920/1080/?random");
+    height: 0;
+    display: none;
+}
+
+  .cd-fixed-bg.cd-fixed-bg--2 {
+    background-image: url("https://picsum.photos/1920/1080/?image=526");
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--3 {
+    background-image: url("https://picsum.photos/1920/1080/?image=519");
+  }
+
 
 
 @media (max-width: 991.98px) {

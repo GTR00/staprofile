@@ -1,0 +1,46 @@
+
+/********************************* Scrolling BG's *************************************/
+
+
+
+
+
+*----------FULL WIDTH IMAGES-------------*
+
+*//////////////// HTML //////////////////*
+
+  <div class="cd-fixed-bg cd-fixed-bg--2">
+                    <!-- <h1> title goes here </h1> -->
+            </div> 
+
+
+            <div class="cd-scrolling-bg">
+
+
+*////////////////// CSS ///////////////*
+
+
+.cd-scrolling-bg {
+    position: relative;
+  }
+
+
+  .cd-fixed-bg {  
+    min-height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--1 {
+    background-image: url("https://picsum.photos/1920/1080/?random");
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--2 {
+    background-image: url("https://picsum.photos/1920/1080/?image=526");
+  }
+
+
+
+  
