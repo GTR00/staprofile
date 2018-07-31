@@ -26,13 +26,27 @@ h5{
     font-size:1.3em;
     font-family:'roboto';
 }
+
 p{
     font-family:'roboto';
     font-size: 1.35em;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    line-height: 155%
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    line-height: 1.7;
 }
+
+.bullets{
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 0em !important;
+    margin-bottom: 3em;
+   
+}
+
+cite[title]{
+    float: right;
+}
+
 /*----------------------------*/
 
 /*--- Extra Padding/Margins ---*/
@@ -47,7 +61,10 @@ p{
 }
 
 .p-more-quote{
-   padding: 0em 3em 3em 3em;
+   padding: 0em 2.2em 3em 3em;
+   color: rgb(12,98,170);
+   
+ 
 
 }
 /*----------------------------*/
@@ -86,7 +103,56 @@ p{
 
 /**************  SHRINK LOGO CSS ON SCROLL  *****************/
 
+
 li.nav-item.pl-3.noimagemobile {
+    width: 9em;
+    /* height: 0;
+    padding-bottom: 56.25%; */
+    /* position: relative;   */
+}
+
+#nav-logo-size {
+    transition: all 0.6s;
+    /* transition: transform 0.6s margin-top 0.6s height 0.6s; */
+    height: 6.5em;
+    /* transition: padding-left 0.7s; */
+    /* text-align: center; */
+}
+
+#nav-logo-size img {
+    width: 75%;
+}
+
+.fullSizeLogo {
+    width: 75%;
+    /* transform: scale(1); */
+}
+
+.resizedLogo {
+    transform: scale(0.6);
+    /* max-height: 3.2em; */
+    margin-top: -20px;
+}
+
+#nav-container {
+    transition: background-color 0.6s !important;
+    background-color: rgba(255,255,255,0.45);
+}
+
+.nav-bg-top {
+    background-color: rgba(255,255,255,0.45) !important;
+}
+
+.nav-bg-scrolled-down {
+    background-color: rgba(255,255,255,1) !important;
+}
+
+
+
+
+
+
+/* li.nav-item.pl-3.noimagemobile {
     width: 7em;    
 }
 #nav-logo-size {
@@ -113,7 +179,7 @@ li.nav-item.pl-3.noimagemobile {
 
 .nav-bg-scrolled-down {
     background-color: rgba(255,255,255,1) !important;
-}
+} */
 
 
 
@@ -359,6 +425,14 @@ background: linear-gradient(145deg, rgba(12,98,170,1) 0%, rgba(124,11,156,0.6554
 }
 
 
+
+div.cd-scrolling-bg h2[id]:before {
+    height: 154px;
+    content: "";
+    display:block;
+}
+
+
 /*--Hero Image--*/
 
 .profile-hero-img{
@@ -366,7 +440,7 @@ background: linear-gradient(145deg, rgba(12,98,170,1) 0%, rgba(124,11,156,0.6554
     height: 60vh;
     background-attachment: fixed;
 }
-
+/*--------------*/
 
 .profile-incopy-img{
     width:500px;
@@ -379,7 +453,8 @@ background: linear-gradient(145deg, rgba(12,98,170,1) 0%, rgba(124,11,156,0.6554
 
 .cd-scrolling-bg {
     position: relative;
-    padding-top: 5em;
+    padding-top: 40px;
+    margin-top: -40px;
     padding-bottom: 5em;
     font-size: 1.25em;
 
