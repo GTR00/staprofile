@@ -14,6 +14,8 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css" <!-- Latest compiled and minified JavaScript -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -21,11 +23,12 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/app.js" type="text/JavaScript"></script>
 
 
 
-    <title>St. Andrew's Search for a Dean</title>
+    <title>Parish Profile</title>
 </head>
 
 <body>
@@ -59,7 +62,7 @@
                     </li>
 
                     <li class="nav-item pl-3">
-                        <a class="nav-link text-dark">Profile</a>
+                        <a href="profile.html" class="nav-link text-dark">Profile</a>
                     </li>
                     <li class="nav-item pl-3">
                         <a href="#" class="nav-link text-dark">Apply</a>
@@ -80,8 +83,7 @@
     <div class='profile-hero-img'>
         <div class="row">
             <div class="col-xl-12">
-                <!-- <img class='index-bg-img image-fluid{
-                        display: none !important;' src="img/clergyOrdinationBishop.jpg" alt="St. Andrew's Episcopal Cathedral"> -->
+                
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 centered-text-over-image">
@@ -188,7 +190,7 @@
                                 Our Community of Faith: An Invitation
                             </h2>
                             <div class="float-lg-left">
-                                <img class='img-fluid profile-incopy-img' src='img/stabg.jpg'>
+                                <img class='img-fluid profile-incopy-img-left' src='img/stabg.jpg'>
                             </div>
 
 
@@ -199,7 +201,9 @@
                                 Reverend Brian R. Seage, this strong and resilient parish endeavors to create a space where
                                 all who enter will experience the overwhelming love of God in Jesus Christ.</p>
 
-
+                                <div class="float-lg-right">
+                                    <img class='img-fluid profile-incopy-img-right' src='img/StAndrewsCathedraGovMan.jpg'>
+                                </div>
 
                             <p>The Cathedral’s location places us in the very center of state government. Across the street
                                 is the Governor’s Mansion. Within a few blocks you will find the State Capitol, Federal Courthouse
@@ -226,8 +230,8 @@
                                 another through times of deep pain. We are now emerging from two years of healing wounds
                                 and are ready to embrace a new leader…one who will love, challenge and inspire us as we seek
                                 to be Christ’s hands at work in the world.</p>
-                            <p>Is something urging you to learn more? If so, read on. Perhaps you are being nudged to discern
-                                if a common path is unfolding before you and St. Andrew’s Cathedral Parish.</p>
+                            <h4 class="text-center mt-5"><b>Is something urging you to learn more? If so, read on. Perhaps you are being nudged to discern
+                                if a common path is unfolding before you and St. Andrew’s Cathedral Parish.</b></h4>
 
                         </div>
                     </div>
@@ -237,7 +241,7 @@
 
 
 
-                <div class="cd-fixed-bg cd-fixed-bg--2">
+                <div class="cd-fixed-bg cd-fixed-bg--cornerstone">
                     <!-- <h1> title goes here </h1> -->
                 </div>
 
@@ -250,6 +254,8 @@
                                 Call for a New Dean
                             </h2>
 
+                           
+                           
                             <blockquote class="blockquote text-left p-more-quote">
                                 <p class="mb-0">
                                     <i class="fas fa-quote-left fa-3x mr-3 mt-5"></i>Come… shepherd us, lead us, befriend us, inspire us. Embrace the St. Andrew’s tradition
@@ -258,7 +264,7 @@
                                 </p>
                                 <cite title="Source Title">| St. Andrew's Parishoner</cite>
                             </blockquote>
-
+                            
 
 
 
@@ -378,7 +384,7 @@
 
 
 
-                <div class="cd-fixed-bg cd-fixed-bg--3">
+                <div class="cd-fixed-bg cd-fixed-bg--RadicalWelcome">
                     <!-- <h1> title goes here </h1> -->
                 </div>
 
@@ -568,7 +574,9 @@
                         congregation. Our current worship knits us together while also allowing room to stretch.</p>
 
                     <p>
-                        <strong>The Significance of Music</strong>
+                        <h3 class="mt-5">
+                            The Significance of Music
+                        </h3>
                     </p>
                     <p>(CHOIR PROCESSIONALS, CARILLON AND ORGAN, CAPITAL BRASS, CHILDREN’S CHOIR, HAND BELLS, STRINGS, JAZZ)</p>
                     <p>For as long as most remember, music has been an integral part of our worship and our spiritual formation.
@@ -604,14 +612,17 @@
 
 
 
-
+<div class="row">
+    <div class="col-xl-8 offset-xl-2">
 
 
                     <h2 id="cathedral-chronology-a-brief-history">
-                        <a href="#">Cathedral Chronology: A Brief History</a>
+                        Cathedral Chronology: A Brief History
                     </h2>
                     <p>
-                        <strong>A Strong Presence since 1839</strong>
+                       <h3 class="mt-5">
+                           A Strong Presence since 1839
+                       </h3>
                     </p>
                     <p>St. Andrew’s Church was established as a parish with eight recorded communicants in 1839, and became
                         a parish of the Diocese of Mississippi in 1843. St. Andrew’s has been located across from The Mississippi
@@ -621,12 +632,19 @@
                         Capitol and West Street we have offered an Episcopal response through the decades to a deeply southern,
                         but ever-changing city.
                     </p>
+
+                    <img class='img-fluid' src='img/StAndrewsCathedraloldChoir.jpg'>
                     <p>St. Andrew’s has a history of spawning new institutions to meet needs as they occur. Our parishioners
                         established the first Boy Scout Troop in the state. We assisted in the formation of the first African-American
                         mission in the diocese which is still Jackson’s thriving St. Mark’s Episcopal Church in west Jackson.
                         In the decades to follow, St. Andrew’s would assist in the planting of four more missions that are
                         parishes today: St. Columb’s, St. James’, St. Phillip’s, and St. Alexis.
                     </p>
+
+                    <div class="float-lg-left">
+                        <img class='img-fluid profile-incopy-img-left' src='img/Vincent C Franks.jpg'>
+                    </div>
+
                     <p>Dr. Vincent Franks served as rector from 1947-1959, during which time St. Andrew’s Episcopal School was
                         founded. Dr. Frank’s wife, Adele Franks, served as the first headmistress. The school, which opened
                         in the parish hall in 1947, with 42 students, had been the vision of committed communicants Sherwood
@@ -641,32 +659,39 @@
                         its high quality of academics and for its multi-cultural and racially diverse student body. Twenty
                         percent of the 1,172 students enrolled in the past academic year were Episcopalians.</p>
                     <p>
-                        <strong>Our Role as Flagship</strong>
+                        <h3 class="mt-5">
+                            Our Role as Flagship
+                        </h3>
                     </p>
                     <p>For close to two centuries, St. Andrew’s has held regular Sunday services for its communicants, visitors,
                         and those just passing through. In our capacity as cathedral parish, we welcome the role of hosting
                         diocesan services and events. We understand the importance of being involved in diocesan leadership
                         through various leadership roles. We have an obligation to model meaningful and expansive liturgy,
                         responsible stewardship, and generous outreach.</p>
-                    <p>Through the decades we have been a place of welcome, comfort, and dialogue:</p>
-                    <ul>
+                    
+                    
+                    
+                        <p>Through the decades we have been a place of welcome, comfort, and dialogue:</p>
+                    <ul class="bullets">
                         <li>
-                            <p>South Sudanese refugees sought a familiar Anglican liturgy during their resettlement into Jackson.</p>
+                            South Sudanese refugees sought a familiar Anglican liturgy during their resettlement into Jackson.
                         </li>
                         <li>
-                            <p>We host an annual powerful city-wide 9/11 service of prayer and remembrance honoring first responders.</p>
+                            We host an annual powerful city-wide 9/11 service of prayer and remembrance honoring first responders.
                         </li>
                         <li>
-                            <p>The Cathedral in ____________ hosted The Episcopal Church’s initiative to expand the dialogue
-                                around racial healing: “Fifty Years Later: The State of Racism in America.”</p>
+                            The Cathedral in ____________ hosted The Episcopal Church’s initiative to expand the dialogue
+                                around racial healing: “Fifty Years Later: The State of Racism in America.”
                         </li>
                         <li>
-                            <p>St. Andrew’s parishioners coordinated a December 2017 city-wide historical remembrance of the
-                                church “Kneel-ins” which took place as part of the Civil Rights Movement in the 1960s.</p>
+                            St. Andrew’s parishioners coordinated a December 2017 city-wide historical remembrance of the
+                                church “Kneel-ins” which took place as part of the Civil Rights Movement in the 1960s.
                         </li>
                     </ul>
                     <p>
-                        <strong>So how did we become a Cathedral?</strong>
+                        <h3 class="mt-5">
+                            So how did we become a Cathedral?
+                        </h3>
                     </p>
                     <p>In 1966, then Bishop Coadjutor, The Right Reverend John Maury Allin, put in motion a plan to establish
                         St. Andrew’s as a cathedral parish during the tenure of The Right Reverend Duncan Montgomery Gray,
@@ -680,8 +705,10 @@
                         service (June 16, 1963). His courage was joined by lay leadership, as recorded in this well-known
                         personal account by Anne Moody.</p>
                     
-                    
-                    
+                  
+                  
+                  
+                                      
                         <blockquote class="blockquote text-left p-more-quote">
                                 <p class="mb-0">
                                     <i class="fas fa-quote-left fa-3x mr-3"></i>When we walked inside, we were greeted by two ushers who stood at the rear. ‘May we help you?’
@@ -706,7 +733,9 @@
                         tenures. A couple of these tenures also presented serious challenges to congregational unity and
                         membership, but the parish weathered these difficult periods and moved forward.</p>
                     <p>
-                        <strong>Resilient and Ready</strong>
+                        <h3 class="mt-5">
+                            Resilient and Ready
+                        </h3>
                     </p>
                     <p>While every aspect of our history need not define who we are now, external and internal events have shaped
                         us.
@@ -728,93 +757,105 @@
                         and vestry have taken several specific actions that have moved us to a new place of strength and
                         stability:
                     </p>
-                    <ul>
+                    <ul class="bullets">
                         <li>
-                            <p>New governance procedures (by-laws and fiscal controls) have been put in place to ensure transparency
-                                and accountability. Fully vetted, these measures were enthusiastically adopted by the congregation.</p>
+                            New governance procedures (by-laws and fiscal controls) have been put in place to ensure transparency
+                                and accountability. Fully vetted, these measures were enthusiastically adopted by the congregation.
                         </li>
                         <li>
-                            <p>New human resources guidelines have been developed and approved by the vestry.</p>
-                        </li>
+                            New human resources guidelines have been developed and approved by the vestry.                        </li>
                         <li>
-                            <p>Reinstatement of the commission structure (each with a designated vestry liaison) and reinvigorated
+                            Reinstatement of the commission structure (each with a designated vestry liaison) and reinvigorated
                                 guilds provide a solid framework for brainstorming and developing programs in Evangelism,
                                 Christian Formation, Liturgy and Music, Pastoral Care, Community Partnership, Stewardship,
-                                and Parish Life.</p>
+                                and Parish Life.
                         </li>
                         <li>
-                            <p>There are well-functioning committees that advise the vestry on Finance, Personnel, Buildings
-                                and Grounds, Endowment, and Investment.</p>
+                            here are well-functioning committees that advise the vestry on Finance, Personnel, Buildings
+                                and Grounds, Endowment, and Investment.
                         </li>
                         <li>
-                            <p>An emphasis on stewardship yielded a record-breaking high point in pledging history since 1998.</p>
+                            An emphasis on stewardship yielded a record-breaking high point in pledging history since 1998.
                         </li>
                     </ul>
+</div>
+</div>
 
+<div class="row">
+    <div class="col-xl-8 offset-xl-2">
                     <h2 id="diocesan-highlights">
-                        <a href="#">Diocesan Highlights</a>
+                        Diocesan Highlights
                     </h2>
                     <p>The Episcopal Diocese of Mississippi was established in 1826. Its jurisdiction serves the entire, mostly
-                        rural state. We are part of Province IV of The Episcopal Church’s organizational structure.</p>
-                    <p>The Diocese has a solid history in ecumenical relations:</p>
-                    <ul>
+                        rural state. We are part of Province IV of The Episcopal Church’s organizational structure.
+                    <p>The Diocese has a solid history in ecumenical relations:
+                    <ul class="bullets">
                         <li>
-                            <p>The Episcopal, United Methodist, and Roman Catholic bishops meet monthly and work closely on
+                            The Episcopal, United Methodist, and Roman Catholic bishops meet monthly and work closely on
                                 various initiatives.
-                            </p>
+                            
                         </li>
                         <li>
-                            <p>Since the days of the Committee of Concern, the Diocese has enjoyed a strong relationship with
-                                Temple Beth Israel, the only synagogue in Jackson.</p>
+                            Since the days of the Committee of Concern, the Diocese has enjoyed a strong relationship with
+                                Temple Beth Israel, the only synagogue in Jackson.
                         </li>
                         <li>
-                            <p>The Diocese is a member of the Mississippi Religious Leadership Conference (MRLC), a statewide
-                                interfaith organization that crosses the lines of religion, age, gender, and race.</p>
+                            The Diocese is a member of the Mississippi Religious Leadership Conference (MRLC), a statewide
+                                interfaith organization that crosses the lines of religion, age, gender, and race.
                         </li>
                         <li>
-                            <p>The Diocese participated in the fund development for the Museum of Mississippi History and the
-                                Civil Rights Museum of Mississippi as a major donor.</p>
+                            The Diocese participated in the fund development for the Museum of Mississippi History and the
+                                Civil Rights Museum of Mississippi as a major donor.
                         </li>
                     </ul>
                     <p>The Diocese of Mississippi has many robust ministries:</p>
-                    <ul>
+                    <ul class="bullets">
                         <li>
-                            <p>Camp Bratton Green/CBG</p>
+                            Camp Bratton Green/CBG
                         </li>
                         <li>
-                            <p>The Gray Conference Center</p>
+                            The Gray Conference Center
                         </li>
                         <li>
-                            <p>Happening, Diocesan Office for Youth (DOY)</p>
+                            Happening, Diocesan Office for Youth (DOY)
                         </li>
                         <li>
-                            <p>Cursillo</p>
+                            Cursillo
                         </li>
                         <li>
-                            <p>Episcopal communities on our college campuses</p>
+                            Episcopal communities on our college campuses
                         </li>
                         <li>
-                            <p>Seminarian support</p>
+                            Seminarian support
                         </li>
                         <li>
-                            <p>2018 Task Force on Racial Reconciliation Conference, “55 Years Later: Becoming the Beloved Community
-                                in Mississippi”</p>
+                            2018 Task Force on Racial Reconciliation Conference, “55 Years Later: Becoming the Beloved Community
+                                in Mississippi”
                         </li>
                         <li>
-                            <p>National Conference for the Liturgical Arts</p>
+                            National Conference for the Liturgical Arts
                         </li>
                         <li>
-                            <p>Annual conference on preaching</p>
+                            Annual conference on preaching
                         </li>
                         <li>
-                            <p>Annual conference on church music and liturgy</p>
+                            Annual conference on church music and liturgy
                         </li>
                         <li>
-                            <p>The A.C. Marble Center for Spiritual Formation </p>
+                            The A.C. Marble Center for Spiritual Formation 
                         </li>
                     </ul>
+
+                    </div>
+                    </div>
+
+
+
+
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-2">
                     <h2 id="tell-them-youre-moving-to-jackson-mississippi">
-                        <a href="#">Tell Them You’re Moving to Jackson, Mississippi!</a>
+                        Tell Them You’re Moving to Jackson, Mississippi!
                     </h2>
                     <p>Jackson was incorporated as a city in 1821. Located today at the intersection of Interstate-55 and Interstate-20,
                         Jackson has been dubbed “The Crossroads of the South.” From January to April, downtown Jackson overflows
@@ -823,54 +864,54 @@
                         and Continental Tire have Mississippi plants, and the Stennis Space Center and Ingalls Shipyard are
                         just a few hours away.</p>
                     <p>Jackson is rich in arts, artists, and cultural history, as well as educational institutions:</p>
-                    <ul>
+                    <ul class="bullets">
                         <li>
-                            <p>Civil Rights Museum of Mississippi</p>
+                            Civil Rights Museum of Mississippi
                         </li>
                         <li>
-                            <p>Museum of Mississippi History</p>
+                            Museum of Mississippi History
                         </li>
                         <li>
-                            <p>Mississippi Museum of Art</p>
+                            Mississippi Museum of Art
                         </li>
                         <li>
-                            <p>Smith Robertson Museum</p>
+                            Smith Robertson Museum
                         </li>
                         <li>
-                            <p>Mississippi Children’s Museum</p>
+                            Mississippi Children’s Museum
                         </li>
                         <li>
-                            <p>Mississippi Agricultural Museum</p>
+                            Mississippi Agricultural Museum
                         </li>
                         <li>
-                            <p>Mississippi Museum of Natural History</p>
+                            Mississippi Museum of Natural History
                         </li>
                         <li>
-                            <p>The Jackson Zoo</p>
+                            The Jackson Zoo
                         </li>
                         <li>
-                            <p>International Ballet Competition</p>
+                            International Ballet Competition
                         </li>
                         <li>
-                            <p>Mississippi Symphony Orchestra</p>
+                            Mississippi Symphony Orchestra
                         </li>
                         <li>
-                            <p>Mississippi Opera</p>
+                            Mississippi Opera
                         </li>
                         <li>
-                            <p>Six institutions of higher education, including a major medical center</p>
+                            Six institutions of higher education, including a major medical center
                         </li>
                         <li>
-                            <p>Three local ballet companies</p>
+                            Three local ballet companies
                         </li>
                         <li>
-                            <p>The first community college system in the country</p>
+                            The first community college system in the country
                         </li>
                         <li>
-                            <p>A recreational reservoir</p>
+                            A recreational reservoir
                         </li>
                         <li>
-                            <p>The Natchez Trace</p>
+                            The Natchez Trace
                         </li>
                     </ul>
                     <p>Mississippi’s history includes the disenfranchisement and pernicious segregation that fueled the Civil
@@ -878,17 +919,17 @@
                         Medgar Wiley Evers. But new light shines on significant recognitions and institutions that Jackson
                         and Mississippi have established to heal wounds and relationships:
                     </p>
-                    <ul>
+                    <ul class="bullets">
                         <li>
-                            <p>The Evers’ family home in Jackson has just been added to the National Registry of Historic Places.</p>
+                            The Evers’ family home in Jackson has just been added to the National Registry of Historic Places.
                         </li>
                         <li>
-                            <p>Our mayor and governor, with support of private philanthropy, created the Better Together Commission
-                                to tackle the challenges of the capital city’s public education system.</p>
+                            Our mayor and governor, with support of private philanthropy, created the Better Together Commission
+                                to tackle the challenges of the capital city’s public education system.
                         </li>
                         <li>
-                            <p>Jackson is now home to the William Winter Institute for Racial Reconciliation, named for one
-                                of Mississippi’s more progressive governors.</p>
+                            Jackson is now home to the William Winter Institute for Racial Reconciliation, named for one
+                                of Mississippi’s more progressive governors.
                         </li>
                     </ul>
                     <p>A college town, metro-Jackson is a temporary academic home for a time to thousands of young people. Almost
@@ -906,12 +947,19 @@
 
                     <p>Printed with permission from the artist, St. Andrew’s parishioner, Ellen Langford</p>
 
+</div>
+</div>
+<div class="row">
+    <div class="col-xl-8 offset-xl-2">
+
                     <h2 id="stay-and-learn-formation-for-ministry">
                         Stay and Learn: Formation for Ministry
                     </h2>
 
                     <p>
-                        <strong>Adult Formation</strong>
+                        <h3 class="mt-5">
+                            Adult Formation
+                        </h3>
                     </p>
                     <p>Presently, Christian formation is delivered in multiple ways at St. Andrew’s. The Reverend Katie Bradshaw,
                         Canon for Lifelong Formation and Mission, in her second year with us, brings great energy and intellect
@@ -945,7 +993,9 @@
                         irregular during the recent transitions. Parishioners voiced very strong support for its return.
                         We want a dean who can teach!</p>
                     <p>
-                        <strong>Children’s Formation</strong>
+                        <h3 class="mt-5">
+                            Children’s Formation
+                        </h3>
                     </p>
                     <p>Through its history, St. Andrew’s has enjoyed strong leadership for children’s programming. There are
                         talented volunteers and a Coordinator for Children’s Ministries nurturing our littlest ones in the
@@ -962,9 +1012,18 @@
                         ways to integrate children fully into worship. And, when we take care to do this, the children are
                         clear about what it means to them:</p>
                     <p>
-                        <em>“I like going to the Cathedral and seeing the light shining through the stained glass and feeling
-                            happy.”
-                        </em>
+                        
+                        
+                        <blockquote class="blockquote text-left p-more-quote">
+                            <p class="mb-0">
+                                <i class="fas fa-quote-left fa-3x mr-3 mt-5"></i>I like going to the Cathedral and seeing the light shining through the stained glass and feeling
+                                happy.</p>
+                            <cite title="Source Title"> | St. Andrew's Parishoner</cite>
+                        </blockquote>
+                        
+                        
+                        
+                        
                     </p>
                     <p>
                         <strong>[USE OTHER QUOTES]</strong>
@@ -978,7 +1037,9 @@
                         stay and learn. This summer’s VBS attendance exceeded 70 children, a strong indication that the spiritual
                         formation of young children may be one of the most potent areas for growth at the Cathedral.</p>
                     <p>
-                        <strong>Youth Opportunities and Challenges</strong>
+                       <h3 class="mt-5">
+                           Youth Opportunities and Challenges
+                       </h3>
                     </p>
                     <p>Youth ministry has tough competition in the scheme of things. Especially as a downtown church, we are
                         challenged to offer adequate programming. Our youth attend a variety of schools, both public and
@@ -1004,12 +1065,14 @@
                     
                     
                     
-                    
-                    
+             </div>
+             </div>       
+             <div class="row">
+                <div class="col-xl-8 offset-xl-2"> 
                         
 
                     <h2 id="go-and-do-pastoral-care-ministries-within-and-beyond">
-                        <a href="#">Go and Do: Pastoral Care Ministries Within and Beyond</a>
+                        Go and Do: Pastoral Care Ministries Within and Beyond
                     </h2>
                     <p>“When Jesus sends us, together, to the places he himself intends to go, he goes with us. He goes with
                         us down the road into our neighborhoods and communities, to open doors, to cross thresholds, to spend
@@ -1019,7 +1082,9 @@
                     <p>The Reverend Canon Jennifer Deaton</p>
                     <p>—from her sermon on the 12th Sunday After Pentecost, August 2016</p>
                     <p>
-                        <strong>A Shared Priesthood</strong>
+                       <h3 class="mt-5">
+                           A Shared Priesthood
+                       </h3>
                     </p>
                     <p>Pastoral care is very important to us, and we see it as a shared responsibility. There is strong agreement
                         about the value and capacity of our current Canon for Pastoral Care, The Reverend Jennifer Deaton.
@@ -1034,81 +1099,85 @@
                     <p>In addition to unanticipated crises, that call for and receive an immediate response, there are a number
                         of ongoing pastoral care ministries where parishioners can touch a heart and lend a hand.</p>
                     <p>
-                        <strong>Reaching In</strong>
+                        <h3 class="mt-5">
+                            Reaching In
+                        </h3>
                     </p>
 
                     <p>St. Andrew’s has a very strong sense of family and tangible love. A well-established and organized structure
                         supports these important lay-led ministries:</p>
-                    <ol>
+                    <ul class="bullets">
                         <li>
-                            <p>
-                                <strong>Eucharistic Visitors </strong>
-                            </p>
+                            
+                                Eucharistic Visitors 
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Guild of the Christ Child</strong>
-                            </p>
+                            
+                                Guild of the Christ Child
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>St. Michael’s Guild </strong>
-                            </p>
+                            
+                                St. Michael’s Guild 
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>All Angel’s Guild </strong>
-                            </p>
+                            
+                                All Angel’s Guild 
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Mail Trail </strong>
-                            </p>
+                            
+                                Mail Trail 
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Parish Visitors </strong>
-                            </p>
+                            
+                                Parish Visitors 
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Befrienders </strong>
-                            </p>
+                            
+                                Befrienders 
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Prayer Chain </strong>
-                            </p>
+                            
+                                Prayer Chain 
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Clarence Tree</strong>
-                            </p>
+                            
+                                Clarence Tree
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>St. Clare’s Common Thread</strong>
-                            </p>
+                            
+                                St. Clare’s Common Thread
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Ultreya and Cursillo</strong>
-                            </p>
+                            
+                                Ultreya and Cursillo
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Bread Ministry (describe properly)</strong>
-                            </p>
+                            
+                                Bread Ministry (describe properly)
+                            
                         </li>
                         <li>
-                            <p>
-                                <strong>Ushers (describe properly)</strong>
-                            </p>
+                            
+                                Ushers (describe properly)
+                            
                         </li>
-                    </ol>
+                    </ul>
 
                     <p>
-                        <strong>Reaching Out</strong>
+                       <h3 class="mt-5">
+                           Reaching Out
+                       </h3>
                     </p>
                     <p>St. Andrew’s has a rich history of identifying and responding to the needs of fellow citizens in the
                         City of Jackson and other areas of the state and world where poverty, disaster, or oppression rob
@@ -1121,7 +1190,7 @@
                         <strong>NOTE – CHANGE THE FOLLOWING CHART TO BULLET POINTS</strong>
                     </p>
 
-                    <ol>
+                  
                         <p>
                             St. Andrew’s was a key facilitator In the founding and continuing support of these ministries
                         </p>
@@ -1162,7 +1231,9 @@
                         </p>
 
                         <p>
-                            <strong>Ways We Use Our Building for Outreach</strong>
+                           <h3 class="mt-5">
+                               Ways We Use Our Building for Outreach
+                           </h3>
                         </p>
                         <p>St. Andrew’s has a beautiful and large building in downtown Jackson that also has been used to support
                             the community in a variety of ways. Every Tuesday morning, we open our doors for the Tuesday
@@ -1177,6 +1248,12 @@
                             regular, weekly basis, a move championed by many in the congregation.</p>
                         <p>Beyond traditional outreach programs, St. Andrew’s has also been known to support cultural programs
                             throughout the city.</p>
+
+</div>
+</div>
+
+<div class="row">
+    <div class="col-xl-8 offset-xl-2">
 
                         <h2 id="parish-life-to-everything-a-season">
                             Parish Life: To Everything a Season
@@ -1195,36 +1272,47 @@
                             <p>Seasonal Foyer Groups</p>
                             <p>Supper in the parish hall is a standby and anchor for a variety of liturgical events:</p>
                         
-                        <ul>
+                        <ul class="bullets">
                             <li>
-                                <p>Advent wreath-making</p>
+                                Advent wreath-making
                             </li>
                             <li>
-                                <p>Shrove Tuesday pancakes with accompanying Mardi Gras parade</p>
+                                Shrove Tuesday pancakes with accompanying Mardi Gras parade
                             </li>
                             <li>
-                                <p>Children’s led Feast of Lights, followed by Burning of the Greens on</p>
-                                <p>Capitol Street</p>
+                                Children’s led Feast of Lights, followed by Burning of the Greens on
+                                Capitol Street
                             </li>
                             <li>
-                                <p>A Celebration of Light gathering following the Easter Vigil</p>
+                                A Celebration of Light gathering following the Easter Vigil
                             </li>
-                            <li></li>
-                        </ul>
+                            
                         
-                            <p>Mother’s Day brunch</p>
-                       
-                        <ul>
+                        
                             <li>
-                                <p>Annual parish party</p>
+                                Mother’s Day brunch
+                            </li>
+                       
+                        
+                            <li>
+                                Annual parish party
                             </li>
                         </ul>
                         <p>Currently, work is underway to develop a process for staying in communication with newcomers and
                             creating an onboarding process that moves forward toward membership and involvement. A newly
                             formed Evangelism Committee is spearheading this effort.</p>
                         <p>[CREATE LINK TO STAFF HERE]</p>
+                       
+                       </div>
+                       </div>
+                       
+                       
+                       
+                       <div class="row">
+                        <div class="col-xl-8 offset-xl-2">
+                       
                         <h2 id="our-financial-health">
-                            <a href="#">Our Financial Health</a>
+                            Our Financial Health
                         </h2>
                         <p>
                             <strong>[JUSIN AND JOSH WILL REWRITE THE ENTIRE FINANCIAL SEECTION]</strong>
@@ -1232,6 +1320,16 @@
                         <p>
                             <strong>Capital, Annual, and Planned Giving</strong>
                         </p>
+
+
+                        </div>
+                        </div>
+
+
+
+
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2">
                         <h2 id="building-on-existing-programs">
                             Building on Existing Programs
                         </h2>
@@ -1239,48 +1337,56 @@
                             of ideas were discussed that build on already-established programs. .Mutual discernment is needed
                             to shape these ideas and move us forward. We welcome the ideas and vision of our new dean to
                             help us broaden and strengthen our existing programs.</p>
-                        <ol>
+                        <ul class="bullets">
                             <li>
-                                <p> Retain a full-time, adequately compensated youth minister necessary for executing a consistent
-                                    and robust program, and for lifting up youth into leadership roles.</p>
+                                 Retain a full-time, adequately compensated youth minister necessary for executing a consistent
+                                    and robust program, and for lifting up youth into leadership roles.
                             </li>
                             <li>
-                                <p>Spiritual Formation takes many forms and reaches many age groups. These are opportunities
-                                    to enrich our lives and expand the diversity of our faith community:</p>
+                                Spiritual Formation takes many forms and reaches many age groups. These are opportunities
+                                    to enrich our lives and expand the diversity of our faith community:
                             </li>
-                        </ol>
-                        <ul>
+                        
+                        
                             <li>
-                                <p>A commitment to developing lay leadership in order to expand the small group opportunities
-                                    within the parish.</p>
-                            </li>
-                            <li>
-                                <p>Enrich the experiences for all by bringing children into the adult worship experiences.</p>
+                                A commitment to developing lay leadership in order to expand the small group opportunities
+                                    within the parish.
                             </li>
                             <li>
-                                <p>Committing more resources to all of our formation offerings.
-                                </p>
+                                Enrich the experiences for all by bringing children into the adult worship experiences.
                             </li>
                             <li>
-                                <p>Make Wednesday Night Program regular and keep it robust.</p>
+                                Committing more resources to all of our formation offerings.
+                                
                             </li>
                             <li>
-                                <p>Adjust programming and publicize existing programming to encourage diversity in participation
-                                    and recognize stages of life needs.</p>
+                                Make Wednesday Night Program regular and keep it robust.
                             </li>
                             <li>
-                                <p>Lift up the emerging Community Evensong gathering so it can grow in strength and numbers.</p>
+                                Adjust programming and publicize existing programming to encourage diversity in participation
+                                    and recognize stages of life needs.
+                            </li>
+                            <li>
+                                Lift up the emerging Community Evensong gathering so it can grow in strength and numbers.
+                            </li>
+                       
+                       
+                            <li>
+                                 Grow the budget to broaden our ministries and maximize our mission. Whether we call it stewardship
+                                    or annual giving or fund development, effective programming will need prayerful consideration
+                                    of how we share God’s resources for the benefit of God’s people. 
                             </li>
                         </ul>
-                        <ol>
-                            <li>
-                                <p> Grow the budget to broaden our ministries and maximize our mission. Whether we call it stewardship
-                                    or annual giving or fund development, effective programming will need prayerful consideration
-                                    of how we share God’s resources for the benefit of God’s people. </p>
-                            </li>
-                        </ol>
+
+</div>
+</div>
+
+                        <div class="row">
+                            <div class="col-xl-8 offset-xl-2">
+
+
                         <h2 id="may-the-one-we-long-for-long-for-us">
-                            <a href="#">May the One We Long for, Long for Us.</a>
+                            May the One We Long for, Long for Us.
                         </h2>
                         <p>
                             <em>Blessed be the longing that brought us here
@@ -1415,7 +1521,8 @@
                         <p>Jackson, Mississippi</p>
                 </div>
 
-
+</div>
+</div>
 
             </div>
             <!-- end row flex div -->

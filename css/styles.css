@@ -18,7 +18,7 @@ h3{
 }
 
 h4{
-    font-family:'stratos';
+    font-family:'roboto';
     
 }
 
@@ -42,6 +42,9 @@ p{
     margin-bottom: 3em;
    
 }
+.bullets>li{
+    Margin-bottom: 1.5em;
+}
 
 cite[title]{
     float: right;
@@ -63,10 +66,13 @@ cite[title]{
 .p-more-quote{
    padding: 0em 2.2em 3em 3em;
    color: rgb(12,98,170);
-   
- 
 
-}
+ }
+
+ .padding-top{
+    margin-top: 5em;
+    padding-top:3em;
+ }
 /*----------------------------*/
 
 
@@ -436,15 +442,24 @@ div.cd-scrolling-bg h2[id]:before {
 /*--Hero Image--*/
 
 .profile-hero-img{
-    background-image: url('../img/clergyOrdinationBishop.jpg');
+    background-image: url('../img/StAndrewsNave.jpg');
     height: 60vh;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    
 }
 /*--------------*/
 
-.profile-incopy-img{
-    width:500px;
+.profile-incopy-img-left{
+    width: 500px;
     padding-right: 2em;
+    padding-top:2em;
+}
+
+.profile-incopy-img-right{
+    width: 500px;
+    padding-left: 2em;
     padding-top:2em;
 }
 
@@ -475,13 +490,20 @@ div.cd-scrolling-bg h2[id]:before {
     display: none;
 }
 
-  .cd-fixed-bg.cd-fixed-bg--2 {
-    background-image: url("https://picsum.photos/1920/1080/?image=526");
-  }
+  .cd-fixed-bg.cd-fixed-bg--cornerstone {
+    background-image: url("/img/ordination1.jpg");
+ background-position: 0px -400px;
 
-  .cd-fixed-bg.cd-fixed-bg--3 {
-    background-image: url("https://picsum.photos/1920/1080/?image=519");
-  }
+
+ 
+
+}
+
+  .cd-fixed-bg.cd-fixed-bg--RadicalWelcome {
+    background-image: url("/img/RadicalWelcome.jpg");
+background-position: center-top;
+
+}
 
 
 
