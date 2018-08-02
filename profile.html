@@ -16,9 +16,12 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
@@ -230,8 +233,8 @@
                                 another through times of deep pain. We are now emerging from two years of healing wounds
                                 and are ready to embrace a new leader…one who will love, challenge and inspire us as we seek
                                 to be Christ’s hands at work in the world.</p>
-                            <h4 class="text-center mt-5"><b>Is something urging you to learn more? If so, read on. Perhaps you are being nudged to discern
-                                if a common path is unfolding before you and St. Andrew’s Cathedral Parish.</b></h4>
+                            <p>Is something urging you to learn more? If so, read on. Perhaps you are being nudged to discern
+                                if a common path is unfolding before you and St. Andrew’s Cathedral Parish.</p>
 
                         </div>
                     </div>
@@ -501,12 +504,14 @@
                     <h3>
                         How We Worship
                     </h3>
-                    
+                   
                     
                     <p>(PHOTOS: ALL TYPES OF SERVICES: FEAST DAYS, BAPTISMS, PENTECOST, COMMUNITY EVENSONG, ETC.)
                     </p>
                     
-                    
+                     <div class="float-lg-right">
+                        <img class='img-fluid profile-incopy-img-right' src='img/2018-Mar-25-Palm-Sunday-014.jpg'>
+                    </div>
                     <p>Worship is the centerpiece of our life together at St. Andrew’s and the liturgy is a compelling and unifying
                         experience for parishioners. We use all forms of Rites I and II during Sunday morning services, for
                         baptisms, marriages, funerals, and other special services.
@@ -514,7 +519,7 @@
                         <em>Wonder, Love, and Praise add</em> variety to these traditional rites as well. There is an openness
                         to alternate liturgies, other traditions and prayers, and more inclusive and expansive language is
                         being introduced.</p>
-                    
+                        <img class='img-fluid' src='img/2018-Mar-25-Palm-Sunday-027.jpg'>
                     
                         <blockquote class="blockquote text-left p-more-quote">
                                 <p class="mb-0">
@@ -1106,7 +1111,7 @@
 
                     <p>St. Andrew’s has a very strong sense of family and tangible love. A well-established and organized structure
                         supports these important lay-led ministries:</p>
-                    <ul class="bullets">
+                    <ul class="bullets buullets-nospace">
                         <li>
                             
                                 Eucharistic Visitors 
@@ -1548,9 +1553,35 @@
             </div>
         </footer>
 
+<script>
+
+    //From: https://stackoverflow.com/a/50133772/2501386
+
+$(document).ready(function() {
+    $(".nav-link").click(function(){
+        var item = $(this).attr("href");
+        $('.active').removeClass('active');
+        $("html, body").animate({
+            scrollTop: $(item).offset().top - 50
+        },
+        {
+            duration: 1e3,
+        });
+        $('body').scrollspy({
+            target: '#navbar-search-body',
+            offset: 100
+        });
+        $(this).parent().addClass('active');
+
+        return false;
+});
+
+});
 
 
-        <script>
+</script>
+
+<!--<script>-->
             //  $("body").attr({
             //  "data-spy": "scroll",
             //  "data-target": "#navbar-search-body"
@@ -1558,11 +1589,11 @@
             //   offset: 500
             // });
 
-            $('body').scrollspy({
-                target: '#navbar-search-body',
-                offset: 300
-            })
-        </script>
+        //    $('body').scrollspy({
+      //          target: '#navbar-search-body',
+       //         offset: 300
+      //      })
+<!--<script>-->
 
 </body>
 
