@@ -514,14 +514,14 @@ div.cd-scrolling-bg h2[id]:before {
 }
 
   .cd-fixed-bg.cd-fixed-bg--cornerstone {
-    background-image: url("/img/Ordination1.jpg");
- background-position: 0px -400px;
+    background-image: url("/img/NewDean.jpg");
+ background-position: 300px -300px;
   }
 
  .cd-fixed-bg.cd-fixed-bg--bishop {
-    background-image: url("/img/DioceseofMississippiOrdination.jpg");
+    background-image: url("/img/ordinatoin3.jpg");
  /* background-position: 0px -400px; */
- background-size: 2000px;
+ background-position: 500px -400px;
  
 }
 
