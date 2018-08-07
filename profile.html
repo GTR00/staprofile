@@ -28,6 +28,7 @@
         crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/app.js" type="text/JavaScript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 
 
 
@@ -1402,6 +1403,13 @@
                         <p>
                             <strong>[JUSIN AND JOSH WILL REWRITE THE ENTIRE FINANCIAL SEECTION]</strong>
                         </p>
+                        <div class="row">
+                                <div class="col-xl-10">
+                                    <canvas id="givingChart" width="400" height="400"></canvas>
+                                    
+                                </div>
+                            </div>
+
                         <p>
                             <strong>Capital, Annual, and Planned Giving</strong>
                         </p>
@@ -1672,7 +1680,71 @@ $(document).ready(function() {
 });
 
 
-</script>
+
+        var ctx = document.getElementById("givingChart").getContext('2d');
+        
+        var givingChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["2010","2011","2012","2013","2014","2015","2016","2017",],
+                datasets: [
+                    {
+                    label: 'Members',
+                    yAxisID:'Number of People',
+                    data: [1251, 1253, 1250, 1211, 1214, 1195, 1189, 1176],
+                    backgroundColor: "purple",
+                    title: 'display',
+                    
+                    },
+                    {
+                    label: 'Avg Sun. Attend.',
+                    data: [349, 349, 345, 334, 331, 334, 310, 294],
+                    backgroundColor: "pink"
+                    }, 
+                    {
+                    label: 'Total Giving',
+                    yAxisID: 'Total Giving',
+                    data: [1459484, 1363045, 1445009, 1360256, 1366351, 1370057, 1385763, 1387938],
+                    borderColor: "blue",
+                    type: 'line',
+                    fill:'false',
+                    borderWidth: 2
+                    } 
+               ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        id: 'Number of People',
+                        type: 'linear',
+                        position: 'left',
+                        scaleLabel:{
+                            display: true,
+                            labelString: 'Members'
+                        }
+                    }, {
+                        id: 'Total Giving',
+                        type: 'linear',
+                        position: 'right',
+                        ticks: {
+                            
+                            max: 1500000,
+                            min: 0
+                         },
+                         scaleLabel: {
+                            display: true,
+                            labelString: 'Total Giving',
+                            }       
+                        
+                    }]
+                }
+            }
+        });
+        </script>
+
+
+
+
 
 <!--<script>-->
             //  $("body").attr({
