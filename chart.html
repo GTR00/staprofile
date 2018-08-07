@@ -107,6 +107,59 @@
         </div>
 
 
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10">
+
+                    <canvas id="stepChart" width="400" height="400"></canvas>
+                    <script>
+                    var ctx = document.getElementById("stepChart").getContext('2d');
+                    var stepChart = new Chart(ctx, {
+                        type: 'horizontalBar',
+                        data: {
+                            labels: ["$200 >", "$150 - 199.99", "$100 - 149.99", "$75 - 99.99", "$50 - 74.99", "$40 - 49.99", "$30 - 39.99", "$20 - 29.99", "$10 - 19.99", "$5 - 9.99", "$5 <"],
+                            datasets: [
+                                {
+                                label: '2018 Number of Pledges',
+                                data: [26, 14, 24, 29, 44, 18, 24, 31,30,13,15],
+                                backgroundColor: "purple",
+                                title: 'display',
+                                
+                                
+                                },
+                                {
+                                label: '2017 Number of Pledges',
+                                data: [20, 12, 18, 23, 34, 19, 34, 23, 18, 12, 20],
+                                backgroundColor: "pink"
+                                } 
+                               ]
+
+
+
+
+                        },
+                        options: {
+                            scales: {
+                                yAxes: [{
+                                    scaleLabel:{
+                            display: true,
+                            labelString: 'Weekly Pledge Ammount',
+                            fontSize: 20,},
+                                    ticks: {
+                                        beginAtZero:true
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                    </script>
+
+
+
+                </div>
+            </div>
+        </div>
+
 
     
 
