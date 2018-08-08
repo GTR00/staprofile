@@ -226,6 +226,31 @@ width:100%;
     
 }
 
+.white-cathedral-logo{
+background-image: url('../img/StAndrewsWEBLOGOwhite.png');
+height: 60vh; 
+}
+
+.text-wrap-width{
+    width:530;
+}
+
+.right{
+    width: 60%;
+    height: 60ex;
+  /* background-color: red; */
+  
+}    
+ 
+ .right{
+    shape-outside: polygon(85% 0, 85% 85%, 0 85%);
+    float: right;
+    clip-path: polygon(85% 0, 85% 85%, 0 85%);
+    transform:rotate(-35deg);
+ }
+  
+
+
 .search-process-img{
     margin-top: -6.5em;
 }
@@ -233,6 +258,7 @@ width:100%;
 .accordian-cardHeadColor{
     background-color: white !important;
 }
+
 .blue-bg{
     background-color:#0B4D9C !important;
     color: white;
@@ -240,11 +266,26 @@ width:100%;
 
 .hero-img{
     background-image: url('../img/clergyOrdinationBishop.jpg');
-    height: 1080px;
-    
-    
-
+    height: 60vh;
 }
+
+/*------ About Hero Image -----------*/
+.about-hero-img h2 {
+    position: absolute;
+    left: 600px;
+    top: 25vh;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5rem;
+    color: white !important;
+  }
 
 /*--------About Search Accordian Colors-------*/
 .red-profile{
@@ -394,25 +435,7 @@ div.accordion .btn{
 /*--------------------------*/
 
 
-/*--------FOOTER-----------*/
 
-footer{
-    background-color:#0B4D9C;
-    height: 250px;
-    width:100%
-}
-
-footer i{
-    color:white;
-}
-
-footer p{
-    color:white;
-    text-align: center;
-    font-family: 'adobe caslon pro';
-    
-}
-/*--------------------------*/
 
 /*-------Profile Page-----*/
 
@@ -553,6 +576,34 @@ background-position: center-bottom;
 /*------*****GRAPHS*****-------*/
 
 
+
+
+
+
+
+
+
+
+
+/*--------FOOTER-----------*/
+
+footer{
+    background-color:#0B4D9C;
+    height: 250px;
+    width:100%
+}
+
+footer i{
+    color:white;
+}
+
+footer p{
+    color:white;
+    text-align: center;
+    font-family: 'adobe caslon pro';
+    
+}
+/*--------------------------*/
 
 
 @media (max-width: 991.98px) {
