@@ -541,6 +541,16 @@ div.cd-scrolling-bg h2[id]:before {
  background-position: 300px -300px;
   }
 
+  .cd-fixed-bg.cd-fixed-bg--Financial {
+    background-image: url("/img/Stewardship2018.jpg");
+ background-position: 450px 75px;
+ background-size:1440px;
+ 
+  }
+
+
+ 
+
  .cd-fixed-bg.cd-fixed-bg--bishop {
     background-image: url("/img/ordinatoin3.jpg");
  /* background-position: 0px -400px; */
