@@ -548,7 +548,11 @@ div.cd-scrolling-bg h2[id]:before {
  
   }
 
-
+  .cd-fixed-bg.cd-fixed-bg--Teaching {
+    background-image: url("/img/teaching.jpg");
+ 
+ 
+  }
  
 
  .cd-fixed-bg.cd-fixed-bg--bishop {
@@ -557,6 +561,15 @@ div.cd-scrolling-bg h2[id]:before {
  background-position: 500px -400px;
  
 }
+
+.cd-fixed-bg.cd-fixed-bg--BuildonPrograms {
+    background-image: url("/img/standrewscathedral3.jpg");
+background-position:200px -200px;
+
+ 
+}
+
+
 
 .cd-fixed-bg.cd-fixed-bg--jacksonMap {
     background-image: url("/img/jacksonMap.png");
