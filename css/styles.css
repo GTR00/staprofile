@@ -207,16 +207,22 @@ li.nav-item.pl-3.noimagemobile {
 
 /*---------HERO IMAGE--------*/
 .index-bg-img{
-width:100%;
+    background-image: url('../img/stabg2.jpg');
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .centered-text-over-image {
     position: absolute;
-    top: 18%;
+    top: 35%;
     left: 10%;
     color:white;
 }
 
+h1.position-hero-text{
+font-size: 5em;
+}
 
 /*--------------------------*/
 
@@ -265,7 +271,7 @@ height: 60vh;
 }
 
 .hero-img{
-    background-image: url('../img/clergyOrdinationBishop.jpg');
+    background-image: url('../img/Exterior.jpg');
     height: 60vh;
 }
 
@@ -315,6 +321,55 @@ height: 60vh;
     color: #222 !important;
     transition: 0.4s;    
 } */
+
+
+[id^='heading'] {
+    padding: 1.5em !important;
+}
+
+[id^='heading']>h5>button.btn-link {
+    color: white !important;
+}
+
+[id^='heading'].card-header.collapsed>h5>button.btn-link {
+    color: #1d1b1b !important;
+}
+
+#headingOne.card-header:not(.collapsed) {
+    background-color: #f73956 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+}
+#headingTwo.card-header:not(.collapsed) {
+    background-color: #0071bd !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+}
+#headingThree.card-header:not(.collapsed) {
+    background-color: #5e292f !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+}
+#headingFour.card-header:not(.collapsed) {
+    background-color: #9f005d !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+}
+#headingFive.card-header:not(.collapsed) {
+    background-color: #006837 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+}
+#headingSix.card-header:not(.collapsed) {
+    background-color: #662e91 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #headingOne:hover>h5>button.btn-link{
     text-decoration: none !important;
@@ -577,8 +632,8 @@ background-position:200px -200px;
 
 }
   .cd-fixed-bg.cd-fixed-bg--RadicalWelcome {
-    background-image: url("/img/RadicalWelcome.jpg");
-background-position: center-top;
+    background-image: url("/img/911service.jpg");
+background-position: 275px -200px
 
 }
 
