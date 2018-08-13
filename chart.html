@@ -159,6 +159,45 @@
                             }
                         }
                     });
+
+
+  var ctx = document.getElementById("stepChart").getContext('2d');
+                    var stepChart = new Chart(ctx, {
+                        type: 'doughnut',
+                        data: {
+                            labels: ["39211", "39202", "39110", "39216", "39157", "39047", "39206", "39056", "39232", "39042", "39208", "Others"],
+                            datasets: [
+                                {
+                                label: '39211',
+                                data: [161],
+                                backgroundColor: "purple",
+                                title: 'display',
+                                
+                                
+                                },
+                                {
+                                label: '39202',
+                                data: [75],
+                                backgroundColor: "pink"
+                                } 
+                               ]
+
+
+
+
+                        },
+                        options: {
+                            
+                                    ticks: {
+                                        beginAtZero:true
+                                    }
+                                }
+                            
+                        
+                    });
+
+
+
                     </script>
 
 
@@ -168,9 +207,11 @@
         </div>
 
 
-    
+       
 
-
+        <div class="embed-responsive embed-responsive-16by9">
+            <p><iframe src="//batchgeo.com/map/7926402073c0a401ba69ce9165460738" frameborder="0" width="100%" height="550" style="border:1px solid #aaa;"></iframe></p><p><small>View <a href="https://batchgeo.com/map/7926402073c0a401ba69ce9165460738">Sta Parishoners </a> in a full screen map</small></p>
+          </div>
 
 
         <div class="container-fluid accordian-cardBodyColor mb-4 p-more">

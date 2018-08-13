@@ -55,6 +55,10 @@ cite[title]{
     float: right;
 }
 
+.carousel-control span.glyphicon {
+    color: red;
+}
+
 
 
 /*----------------------------*/
@@ -234,8 +238,13 @@ font-size: 5em;
 
 .white-cathedral-logo{
 background-image: url('../img/StAndrewsWEBLOGOwhite.png');
-height: 60vh; 
+height: 100vh; 
+background-position: 200px 0;
+background-repeat: no-repeat;
 }
+
+
+
 
 .text-wrap-width{
     width:530;
@@ -273,6 +282,8 @@ height: 60vh;
 .hero-img{
     background-image: url('../img/Exterior.jpg');
     height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*------ About Hero Image -----------*/
