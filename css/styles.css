@@ -3,6 +3,7 @@
 
 body {
     position: relative;
+    overflow-x: hidden;
 }
 
 h1, h2{
@@ -100,16 +101,23 @@ cite[title]{
 
 
 /*--------- NAV BAR -----------*/
-.nav-link-color {
+/* .nav-link-color {
     color:white !important;
     font-family: 'roboto';
     font-size: 1.2em;
 
-}
+} */
+
+
+
 
 .btn-primary{
     background-color: #0B4D9C !important;
 }
+
+/* .navbar-collapse{
+    background-color: white;
+} */
 
 .nav-alt-link-color{
     color:black !important;
@@ -530,8 +538,32 @@ background: linear-gradient(145deg, rgba(12,98,170,1) 0%, rgba(124,11,156,0.6554
     
 }
 
+#navbar-search-body{
+    padding-left: 0px;
+    padding-right: 5px;
+}
 
+#navbar-search-body ul{
+    list-style: none; 
+    padding-left: 0;
+    line-height: 1.3em;
+    
+}
 
+#navbar-search-body li{
+   padding-top: .3em;
+    
+}
+
+#navbar-search-body h5{
+    color:white !important
+}
+
+#navbar-search-body ul a{
+    
+    padding-left: 5px;
+    
+}
 div.cd-scrolling-bg h2[id]:before {
     height: 1em;
     content: "";
@@ -695,16 +727,17 @@ footer p{
 /*--------------------------*/
 
 
-@media (max-width: 991.98px) {
+@media (max-width: 990px) {
     .noimagemobile {
         display: none !important;
     }
-
+    
     .position-hero-text{
         font-size:3em;
         text-align: center;
 
     }
+
     .centered-text-over-image {
         position: absolute;
         top: 5%;
@@ -713,28 +746,44 @@ footer p{
     }
 
     .nav-color-menubg{
-        background-color: #0B4D9C !important;
+        background-color: rgba(255, 255, 255, 0.1) !important;
         /* width: 300px; */
-       
+        
+    }
+    
+    .nav-color-menubg ul {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    /* change hamburger button border color */
+    button.navbar-toggler {
+        border-radius: 0px;
     }
 
     .no-mobile-img{
         display:none;
     }
-}
 
-@media (max-width: 733.98px) {
+} 
+
+@media (max-width: 768px) {
     .position-hero-text{
         font-size:2em;
         text-align: center;
 
     }
+
     /* .centered-text-over-image {
         position: absolute;
         top: 5%;
         left: 18%;
         color:white;
     } */
+    #navbar-search-body{
+        display: none !important;
+    }
+
+
 }
 
 
