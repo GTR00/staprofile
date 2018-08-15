@@ -692,6 +692,17 @@ background-position: center-bottom;
 
 }
 
+.cd-fixed-bg.cd-fixed-bg--longFor {
+    background-image: url("/img/StAndrewsCathedralCornerstone.jpg");
+    background-position: 350px -100px;
+
+}
+
+.cd-fixed-bg.cd-fixed-bg--caringForOthers{
+    background-image: url("/img/StAndrewsLemonAdeStand.jpg");
+    background-position: 350px -100px;
+
+}
 
 
 /*------*****GRAPHS*****-------*/
