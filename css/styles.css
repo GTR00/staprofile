@@ -570,7 +570,25 @@ div.cd-scrolling-bg h2[id]:before {
     display:block;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+     border-bottom: 2px solid white;
+    border-top: 2px solid white;
+background-color:inherit;
+border-radius: 0;
+transition: border ease 500ms;
+color: black !important;
 
+  
+}
+
+
+.nav-pills, .nav-pills .show>.nav-link{
+    border-bottom: 2px solid transparent !important;
+    border-top: 2px solid transparent !important;
+background-color:inherit;
+border-radius: 0;
+
+}
 /*--Hero Image--*/
 
 .profile-hero-img{
@@ -636,13 +654,13 @@ div.cd-scrolling-bg h2[id]:before {
 
   .cd-fixed-bg.cd-fixed-bg--cornerstone {
     background-image: url("/img/NewDean.jpg");
- background-position: 300px -300px;
+ /* background-position: 300px -300px; */
   }
 
   .cd-fixed-bg.cd-fixed-bg--Financial {
     background-image: url("/img/Stewardship2018.jpg");
- background-position: 450px 75px;
- background-size:1440px;
+ /* background-position: 450px 75px;
+ background-size:1440px; */
  
   }
 
@@ -656,13 +674,13 @@ div.cd-scrolling-bg h2[id]:before {
  .cd-fixed-bg.cd-fixed-bg--bishop {
     background-image: url("/img/ordinatoin3.jpg");
  /* background-position: 0px -400px; */
- background-position: 500px -400px;
+ /* background-position: 500px -400px; */
  
 }
 
 .cd-fixed-bg.cd-fixed-bg--BuildonPrograms {
     background-image: url("/img/standrewscathedral3.jpg");
-background-position:200px -200px;
+/* background-position:200px -200px; */
 
  
 }
@@ -671,12 +689,12 @@ background-position:200px -200px;
 
 .cd-fixed-bg.cd-fixed-bg--jacksonMap {
     background-image: url("/img/jacksonMap.png");
- background-size: contain;
+ /* background-size: contain; */
 
 }
   .cd-fixed-bg.cd-fixed-bg--RadicalWelcome {
     background-image: url("/img/911service.jpg");
-background-position: 275px -200px
+/* background-position: 275px -200px */
 
 }
 
@@ -688,19 +706,19 @@ background-position: center-bottom;
 
 .cd-fixed-bg.cd-fixed-bg--OldChurchPhoto {
     background-image: url("/img/StAndrewsOld.jpg");
-    background-position: 350px -100px;
+    /* background-position: 350px -100px; */
 
 }
 
 .cd-fixed-bg.cd-fixed-bg--longFor {
     background-image: url("/img/StAndrewsCathedralCornerstone.jpg");
-    background-position: 350px -100px;
+    /* background-position: 350px -100px; */
 
 }
 
 .cd-fixed-bg.cd-fixed-bg--caringForOthers{
     background-image: url("/img/StAndrewsLemonAdeStand.jpg");
-    background-position: 350px -100px;
+   
 
 }
 
