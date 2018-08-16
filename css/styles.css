@@ -1,4 +1,3 @@
-
 /*------- GLOBAL --------*/
 
 body {
@@ -6,53 +5,51 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2{
-    font-family:'adobe caslon pro';
+h1,
+h2 {
+    font-family: 'adobe caslon pro';
     font-size: 3em;
 }
 
-
-
-h3{
-    font-family:'adobe caslon pro';
+h3 {
+    font-family: 'adobe caslon pro';
     font-size: 2em;
 }
 
-h4{
-    font-family:'roboto';
-    
+h4 {
+    font-family: 'roboto';
 }
 
-h5{
-    font-size:1.3em;
-    font-family:'roboto';
+h5 {
+    font-size: 1.3em;
+    font-family: 'roboto';
 }
 
-p{
-    font-family:'roboto';
-    font-size: 1em;
+p {
+    font-family: 'roboto';
+    font-size: 1.25em;
     margin-top: 1.3em;
     margin-bottom: 1.3em;
     line-height: 1.7;
-    font-weight:300;
+    font-weight: 300;
 }
 
-.bullets{
-    font-size: .9em;
+.bullets {
+    font-size: 1.1em;
     line-height: 1.3;
     margin-top: 0em !important;
     margin-bottom: 3em;
-   
 }
-.bullets>li{
+
+.bullets>li {
     Margin-bottom: 1em;
 }
 
-.bullets-nospace>li{
+.bullets-nospace>li {
     Margin-bottom: 1em;
 }
 
-cite[title]{
+cite[title] {
     float: right;
 }
 
@@ -60,47 +57,47 @@ cite[title]{
     color: red;
 }
 
-
-
 /*----------------------------*/
 
 /*--- Extra Padding/Margins ---*/
-.mt-more{
+
+.mt-more {
     margin-top: 3em;
-    padding-top:3em;
+    padding-top: 3em;
 }
-.p-more{
+
+.p-more {
     padding-left: 4em;
     padding-right: 4em;
     padding-top: 2.5em;
 }
 
-.p-more-quote{
-   padding: 0em 2.2em 3em 3em;
-   color: rgb(12,98,170);
+.p-more-quote {
+    padding: 0em 2.2em 3em 3em;
+    color: rgb(12, 98, 170);
+}
 
- }
+.blockquote-color {
+    color: rgb(12, 98, 170);
+}
 
- .blockquote-color{
-    color: rgb(12,98,170);
- }
-
- .padding-top{
+.padding-top {
     margin-top: 5em;
-    padding-top:3em;
- }
+    padding-top: 3em;
+}
+
 /*----------------------------*/
 
-
 /*-------- Front Page ---------*/
-.update-section-style{
+
+.update-section-style {
     font-size: .8em !important;
 }
 
 /*------------------------------*/
 
-
 /*--------- NAV BAR -----------*/
+
 /* .nav-link-color {
     color:white !important;
     font-family: 'roboto';
@@ -108,10 +105,7 @@ cite[title]{
 
 } */
 
-
-
-
-.btn-primary{
+.btn-primary {
     background-color: #0B4D9C !important;
 }
 
@@ -119,19 +113,17 @@ cite[title]{
     background-color: white;
 } */
 
-.nav-alt-link-color{
-    color:black !important;
+.nav-alt-link-color {
+    color: black !important;
     font-family: 'stratos';
     font-size: 1.2em;
 }
 
-.nav-bgcolor{
-    background-color:white;
+.nav-bgcolor {
+    background-color: white;
 }
 
-
 /**************  SHRINK LOGO CSS ON SCROLL  *****************/
-
 
 li.nav-item.pl-3.noimagemobile {
     width: 9em;
@@ -143,7 +135,6 @@ li.nav-item.pl-3.noimagemobile {
 #nav-logo-size {
     transition: all 0.6s;
     /* transition: transform 0.6s margin-top 0.6s height 0.6s; */
-   
     /* transition: padding-left 0.7s; */
     /* text-align: center; */
 }
@@ -165,21 +156,16 @@ li.nav-item.pl-3.noimagemobile {
 
 #nav-container {
     transition: background-color 0.6s !important;
-    background-color: rgba(255,255,255,0.45);
+    background-color: rgba(255, 255, 255, 0.45);
 }
 
 .nav-bg-top {
-    background-color: rgba(255,255,255,0.45) !important;
+    background-color: rgba(255, 255, 255, 0.45) !important;
 }
 
 .nav-bg-scrolled-down {
-    background-color: rgba(255,255,255,1) !important;
+    background-color: rgba(255, 255, 255, 1) !important;
 }
-
-
-
-
-
 
 /* li.nav-item.pl-3.noimagemobile {
     width: 7em;    
@@ -210,17 +196,15 @@ li.nav-item.pl-3.noimagemobile {
     background-color: rgba(255,255,255,1) !important;
 } */
 
-
-
 /************* END SHRINK LOGO CSS ON SCROLL  ***************/
 
 /*--------------------------*/
 
-
 /*---------HERO IMAGE--------*/
-.index-bg-img{
+
+.index-bg-img {
     background-image: url('../img/stabg2.jpg');
-    height: 100vh; 
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -229,65 +213,60 @@ li.nav-item.pl-3.noimagemobile {
     position: absolute;
     top: 35%;
     left: 10%;
-    color:white;
+    color: white;
 }
 
-h1.position-hero-text{
-font-size: 5em;
+h1.position-hero-text {
+    font-size: 5em;
 }
 
 /*--------------------------*/
 
 /*------ About Page ---------*/
-.img-maxwidth{
+
+.img-maxwidth {
     width: 100%;
-    
 }
 
-.white-cathedral-logo{
-background-image: url('../img/StAndrewsWEBLOGOwhite.png');
-height: 100vh; 
-background-position: 200px 0;
-background-repeat: no-repeat;
+.white-cathedral-logo {
+    background-image: url('../img/StAndrewsWEBLOGOwhite.png');
+    height: 100vh;
+    background-position: 300px 200px;
+    background-repeat: no-repeat;
 }
 
-
-
-
-.text-wrap-width{
-    width:530;
+.text-wrap-width {
+    width: 530;
 }
 
-.right{
+.right {
     width: 60%;
     height: 60ex;
-  /* background-color: red; */
-  
-}    
- 
- .right{
+    /* background-color: red; */
+}
+
+.right {
     shape-outside: polygon(85% 0, 85% 85%, 0 85%);
     float: right;
     clip-path: polygon(85% 0, 85% 85%, 0 85%);
-    transform:rotate(-35deg);
- }
-  
+    transform: rotate(-35deg);
+}
 
-
-.search-process-img{
+.search-process-img {
     margin-top: -6.5em;
 }
 
-.accordian-cardHeadColor{
+.accordian-cardHeadColor {
     background-color: white !important;
 }
 
-.blue-bg{
-    background-color:#0B4D9C !important;
+.blue-bg {
+    background-color: #0B4D9C !important;
     color: white;
+    height: 100%;
 }
 
-.hero-img{
+.hero-img {
     background-image: url('../img/Exterior.jpg');
     height: 60vh;
     background-repeat: no-repeat;
@@ -295,6 +274,7 @@ background-repeat: no-repeat;
 }
 
 /*------ About Hero Image -----------*/
+
 .about-hero-img h2 {
     position: absolute;
     left: 600px;
@@ -302,37 +282,33 @@ background-repeat: no-repeat;
     bottom: auto;
     right: auto;
     -webkit-transform: translateX(-50%) translateY(-50%);
-        -ms-transform: translateX(-50%) translateY(-50%);
-            transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
     width: 80%;
     max-width: 1170px;
     margin: 0 auto;
     text-align: center;
     font-size: 5rem;
     color: white !important;
-  }
-
-/*--------About Search Accordian Colors-------*/
-.red-profile{
-    background-color: white !important;
-
-
 }
 
+/*--------About Search Accordian Colors-------*/
 
-#headingOne:hover, #headingOne > h5 > button.show {
+.red-profile {
+    background-color: white !important;
+}
+
+#headingOne:hover,
+#headingOne>h5>button.show {
     text-decoration: none !important;
     background-color: #f73955 !important;
     color: white !important;
     transition: 0.4s;
-    
-    
 }
 
- /* {
+/* {
     background-color: #f73955 !important;
 } */
-
 
 /* .btn-lnk .collapsed  {
     text-decoration: none !important;
@@ -340,7 +316,6 @@ background-repeat: no-repeat;
     color: #222 !important;
     transition: 0.4s;    
 } */
-
 
 [id^='heading'] {
     padding: 1.5em !important;
@@ -356,171 +331,141 @@ background-repeat: no-repeat;
 
 #headingOne.card-header:not(.collapsed) {
     background-color: #f73956 !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
 }
+
 #headingTwo.card-header:not(.collapsed) {
     background-color: #0071bd !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
 }
+
 #headingThree.card-header:not(.collapsed) {
     background-color: #5e292f !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
 }
+
 #headingFour.card-header:not(.collapsed) {
     background-color: #9f005d !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
 }
+
 #headingFive.card-header:not(.collapsed) {
     background-color: #006837 !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
 }
+
 #headingSix.card-header:not(.collapsed) {
     background-color: #662e91 !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 3px 6px rgba(0,0,0,0.24);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-#headingOne:hover>h5>button.btn-link{
+#headingOne:hover>h5>button.btn-link {
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
-
 }
 
-
-.blue-profile{
+.blue-profile {
     background-color: white !important;
-    
-
 }
 
-div.accordion .btn{
+div.accordion .btn {
     padding: 0;
 }
 
-#headingTwo:hover{
+#headingTwo:hover {
     text-decoration: none !important;
     background-color: #0071bd !important;
     color: white !important;
     transition: 0.4s;
-    
-    
 }
 
-#headingTwo:hover>h4{
+#headingTwo:hover>h4 {
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
 }
 
-.brown-profile{
+.brown-profile {
     background-color: white !important;
-    
-
 }
 
-#headingThree:hover{
+#headingThree:hover {
     text-decoration: none !important;
     background-color: #5e292f !important;
     color: white !important;
     transition: 0.4s;
-    
-    
 }
 
-#headingThree:hover>h5>button.btn-link{
+#headingThree:hover>h5>button.btn-link {
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
 }
 
-.purple-profile{
+.purple-profile {
     background-color: white !important;
-    
-
 }
 
-#headingFour:hover{
+#headingFour:hover {
     text-decoration: none !important;
     background-color: #9f005d !important;
     color: white !important;
     transition: 0.4s;
-    
-    
 }
 
-#headingFour:hover>h5>button.btn-link{
+#headingFour:hover>h5>button.btn-link {
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
 }
 
-.green-profile{
+.green-profile {
     background-color: white !important;
-    
-
 }
 
-#headingFive:hover{
+#headingFive:hover {
     text-decoration: none !important;
     background-color: #006837 !important;
     color: white !important;
     transition: 0.4s;
-    
-    
 }
 
-#headingFive:hover>h5>button.btn-link{
+#headingFive:hover>h5>button.btn-link {
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
 }
 
-.dPurple-profile{
+.dPurple-profile {
     background-color: white !important;
-    
-
 }
 
-#headingSix:hover{
+#headingSix:hover {
     text-decoration: none !important;
     background-color: #662e91 !important;
     color: white !important;
     transition: 0.4s;
-    
-    
 }
 
-#headingSix:hover>h5>button.btn-link{
+#headingSix:hover>h5>button.btn-link {
     text-decoration: none !important;
     color: white !important;
     transition: 0.4s;
 }
+
 /*--------------------------*/
-
-
-
 
 /*-------Profile Page-----*/
 
 /*--Scroll Spy--*/
 
-.scroll-text-body{
+.scroll-text-body {
     position: relative;
     overflow-y: scroll;
 }
 
-.scroll-toc{
+.scroll-toc {
     position: webkit-sticky;
     position: sticky;
     top: 4rem;
@@ -528,308 +473,260 @@ div.accordion .btn{
     overflow: auto;
 }
 
-.scrollspy-background{
-    background: rgb(12,98,170);
-background: linear-gradient(145deg, rgba(12,98,170,1) 0%, rgba(124,11,156,0.6554184173669468) 81%);
+.scrollspy-background {
+    background: rgb(12, 98, 170);
+    background: linear-gradient(145deg, rgba(12, 98, 170, 1) 0%, rgba(124, 11, 156, 0.6554184173669468) 81%);
 }
 
-#navbar-search-body li.nav-item>a.nav-link{
-    color:white !important;
-    
+#navbar-search-body li.nav-item>a.nav-link {
+    color: white !important;
 }
 
-#navbar-search-body{
+#navbar-search-body {
     padding-left: 0px;
     padding-right: 5px;
 }
 
-#navbar-search-body ul{
-    list-style: none; 
+#navbar-search-body ul {
+    list-style: none;
     padding-left: 0;
     line-height: 1.3em;
-    
 }
 
-#navbar-search-body li{
-   padding-top: .3em;
-    
+#navbar-search-body li {
+    padding-top: .3em;
 }
 
-#navbar-search-body h5{
-    color:white !important
+#navbar-search-body h5 {
+    color: white !important
 }
 
-#navbar-search-body ul a{
-    
+#navbar-search-body ul a {
     padding-left: 5px;
-    
 }
+
 div.cd-scrolling-bg h2[id]:before {
     height: 1em;
     content: "";
-    display:block;
+    display: block;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-     border-bottom: 2px solid white;
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    border-bottom: 2px solid white;
     border-top: 2px solid white;
-background-color:inherit;
-border-radius: 0;
-transition: border ease 500ms;
-color: black !important;
-
-  
+    background-color: inherit;
+    border-radius: 0;
+    transition: border ease 500ms;
+    color: black !important;
 }
 
-
-.nav-pills, .nav-pills .show>.nav-link{
+.nav-pills,
+.nav-pills .show>.nav-link {
     border-bottom: 2px solid transparent !important;
     border-top: 2px solid transparent !important;
-background-color:inherit;
-border-radius: 0;
-
+    background-color: inherit;
+    border-radius: 0;
 }
+
 /*--Hero Image--*/
 
-.profile-hero-img{
+.profile-hero-img {
     background-image: url('../img/StAndrewsNave.jpg');
     height: 60vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    
 }
+
 /*--------------*/
 
-.profile-incopy-img-left-ls{
+.profile-incopy-img-left-ls {
     width: 500px;
     padding-right: 2em;
-   
 }
 
-.profile-incopy-img-right-ls{
+.profile-incopy-img-right-ls {
     width: 500px;
     padding-left: 2em;
-   
 }
 
-.profile-incopy-img-left-port{
+.profile-incopy-img-left-port {
     width: 200px;
     padding-right: 2em;
-   
 }
 
-.profile-incopy-img-right-port{
+.profile-incopy-img-right-port {
     width: 200px;
     padding-left: 2em;
 }
 
 /*--Fixed BG Images--*/
 
-
 .cd-scrolling-bg {
     position: relative;
     padding-top: 40px;
     margin-top: -40px;
     padding-bottom: 5em;
-    font-size: 1.25em;
+    /* font-size: 1.25em; */
+}
 
-  }
-
-
-  .cd-fixed-bg {  
+.cd-fixed-bg {
     min-height: 50vh;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-  }
+}
 
-  .cd-fixed-bg.cd-fixed-bg--1 {
+.cd-fixed-bg.cd-fixed-bg--1 {
     background-image: url("https://picsum.photos/1920/1080/?random");
     height: 0;
     display: none;
 }
 
-  .cd-fixed-bg.cd-fixed-bg--cornerstone {
+.cd-fixed-bg.cd-fixed-bg--cornerstone {
     background-image: url("/img/NewDean.jpg");
- /* background-position: 300px -300px; */
-  }
+    /* background-position: 300px -300px; */
+}
 
-  .cd-fixed-bg.cd-fixed-bg--Financial {
+.cd-fixed-bg.cd-fixed-bg--Financial {
     background-image: url("/img/Stewardship2018.jpg");
- /* background-position: 450px 75px;
+    /* background-position: 450px 75px;
  background-size:1440px; */
- 
-  }
+}
 
-  .cd-fixed-bg.cd-fixed-bg--Teaching {
+.cd-fixed-bg.cd-fixed-bg--Teaching {
     background-image: url("/img/teaching.jpg");
- 
- 
-  }
- 
+}
 
- .cd-fixed-bg.cd-fixed-bg--bishop {
+.cd-fixed-bg.cd-fixed-bg--bishop {
     background-image: url("/img/ordinatoin3.jpg");
- /* background-position: 0px -400px; */
- /* background-position: 500px -400px; */
- 
+    /* background-position: 0px -400px; */
+    /* background-position: 500px -400px; */
 }
 
 .cd-fixed-bg.cd-fixed-bg--BuildonPrograms {
     background-image: url("/img/standrewscathedral3.jpg");
-/* background-position:200px -200px; */
-
- 
+    /* background-position:200px -200px; */
 }
-
-
 
 .cd-fixed-bg.cd-fixed-bg--jacksonMap {
     background-image: url("/img/jacksonMap.png");
- /* background-size: contain; */
-
+    /* background-size: contain; */
 }
-  .cd-fixed-bg.cd-fixed-bg--RadicalWelcome {
-    background-image: url("/img/911service.jpg");
-/* background-position: 275px -200px */
 
+.cd-fixed-bg.cd-fixed-bg--RadicalWelcome {
+    background-image: url("/img/911service.jpg");
+    /* background-position: 275px -200px */
 }
 
 .cd-fixed-bg.cd-fixed-bg--PigRoast {
     background-image: url("/img/StaPigRoastGrill.jpg");
-background-position: center-bottom;
-
+    background-position: center-bottom;
 }
 
 .cd-fixed-bg.cd-fixed-bg--OldChurchPhoto {
     background-image: url("/img/StAndrewsOld.jpg");
     /* background-position: 350px -100px; */
-
 }
 
 .cd-fixed-bg.cd-fixed-bg--longFor {
     background-image: url("/img/StAndrewsCathedralCornerstone.jpg");
     /* background-position: 350px -100px; */
-
 }
 
-.cd-fixed-bg.cd-fixed-bg--caringForOthers{
+.cd-fixed-bg.cd-fixed-bg--caringForOthers {
     background-image: url("/img/StAndrewsLemonAdeStand.jpg");
-   
-
 }
-
 
 /*------*****GRAPHS*****-------*/
 
-
-
-
-
-
-
-
-
-
-
 /*--------FOOTER-----------*/
 
-footer{
-    background-color:#0B4D9C;
+footer {
+    background-color: #0B4D9C;
     height: 250px;
-    width:100%
+    width: 100%
 }
 
-footer i{
-    color:white;
+footer i {
+    color: white;
 }
 
-footer p{
-    color:white;
+footer p {
+    color: white;
     text-align: center;
     font-family: 'adobe caslon pro';
-    
 }
+
 /*--------------------------*/
 
+@media (max-width: 1600px) {
+    .white-cathedral-logo {
+        background-position: 500px 0;
+    }
+}
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
     .noimagemobile {
         display: none !important;
     }
-    
-    .position-hero-text{
-        font-size:3em;
-        text-align: center;
-
+    .white-cathedral-logo {
+        background-image: none;
+        background-color: #0B4D9C;
+        margin: 10px 50px 0px 0px;
     }
+}
 
-    .centered-text-over-image {
-        position: absolute;
-        top: 5%;
-        left: 18%;
-        color:white;
-    }
+.position-hero-text {
+    font-size: 3em;
+    text-align: center;
+}
 
-    .nav-color-menubg{
-        background-color: rgba(255, 255, 255, 0.1) !important;
-        /* width: 300px; */
-        
-    }
-    
-    .nav-color-menubg ul {
-        background-color: rgba(255, 255, 255, 0.1) !important;
-    }
+.centered-text-over-image {
+    position: absolute;
+    top: 5%;
+    left: 18%;
+    color: white;
+}
 
-    /* change hamburger button border color */
-    button.navbar-toggler {
-        border-radius: 0px;
-    }
+.nav-color-menubg {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    /* width: 300px; */
+}
 
-    .no-mobile-img{
-        display:none;
-    }
+.nav-color-menubg ul {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
 
-} 
+/* change hamburger button border color */
+
+button.navbar-toggler {
+    border-radius: 0px;
+}
+
+.no-mobile-img {
+    display: none;
+}
+
+}
 
 @media (max-width: 768px) {
-    .position-hero-text{
-        font-size:2em;
+    .position-hero-text {
+        font-size: 2em;
         text-align: center;
-
     }
-
     /* .centered-text-over-image {
         position: absolute;
         top: 5%;
         left: 18%;
         color:white;
     } */
-    #navbar-search-body{
+    #navbar-search-body {
         display: none !important;
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-------------TEST CSS------------*/
