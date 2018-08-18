@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +14,10 @@
     <link rel="stylesheet" href="/css/styles.css" <!-- Latest compiled and minified JavaScript -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Montserrat" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
@@ -34,7 +31,7 @@
     <title>Parish Profile</title>
 </head>
 
-<body>
+<body data-offset="140" data-target="#navbar-search-body" data-spy="scroll">
     <div class="container-fluid">
         <nav id="nav-container" class="navbar navbar-expand-lg navbar-dark fixed-top">
             <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -44,30 +41,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
-                <ul class="navbar-nav mx-auto pr-3 nav-color-menubg ml-5">
+                <ul class="navbar-nav mx-auto nav-color-menubg">
                     <li class="nav-item pl-3">
-                        <a href="main.html" class="nav-link text-dark">Home</a>
+                        <a href="profile.html" class="nav-link text-dark">Home</a>
                     </li>
                     <li class="nav-item pl-3">
                         <a href="about.html" class="nav-link text-dark">About</a>
                     </li>
-                    <li class="nav-item pl-3 mr-3">
-                        <a href="updates.html" class="nav-link text-dark">Updates</a>
-                    </li>
 
-
-                    <li id='nav-logo-size' class="nav-item noimagemobile ml-4">
+                     <li id='nav-logo-size' class="nav-item noimagemobile ml-4">
                         <!-- <a href="#" class="nav-link text-dark"> -->
                         <img src='img/StAndrewsCrest120x140.png'>
                         <!-- </a> -->
                     </li>
 
-                    <li class="nav-item pl-3">
+                    <li class="nav-item mr-3">
+                        <a href="updates.html" class="nav-link text-dark">Updates</a>
+                    </li>
+
+
+                   
+
+                    <!-- <li class="nav-item pl-3">
                         <a href="profile.html" class="nav-link text-dark">Profile</a>
                     </li>
                     <li class="nav-item pl-3">
                         <a href="#" class="nav-link text-dark">Apply</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item pl-3">
                         <a href="#" class="nav-link text-dark">Nominate</a>
                     </li>
@@ -76,11 +76,51 @@
 
 
             </div>
-            <button type="button" class="pl-5 pr-5 btn border-primary text-primary bg-transparent btn-lg rounded-0 mr-3">Apply</button>
-            
+            <button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#exampleModalCenter">
+                    Apply
+                  </button>
+                  
+                  
+                  
         </nav>
 
     </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fulid">
+        <div class="row index-bg-img image-fluid" style='position:relative;' alt="St. Andrew's Episcopal Cathedral">
+   
+    
+        
+            <div class="col-xl-8 col-lg-8 col-md-8 col-xs-8 col-8 centered-text-over-image">
+                <h1 class='position-hero-text' data-aos="fade-in"> St. Andrew's Cathedral Search for a Dean</h1>
+                
+
+
+
+            </div>
+            <i class="fas fa-7x fa-chevron-down" data-aos-duration='2000' data-aos-easing='ease-out-back' data-aos='fade-down'></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
 
     <div class='profile-hero-img'>
         <div class="row">
@@ -98,21 +138,28 @@
         </div>
     </div>
 
+
+
+
+
+
+
+
     <div class="container-fluid">
         <div class="row flex-xl-nowrap">
             <div id="navbar-search-body" class="col-sm-3 scroll-toc scrollspy-background mt-more">
-                <nav class="navbar">
-                    <nav class="nav nav-pills flex-column">
+                <!-- <nav class="navbar"> -->
+                    <!-- <nav class="nav nav-pills flex-column"> -->
 
                         <!-- <nav class="nav nav-pills flex-column">
                     <a class="nav-link ml-3 my-1" href="#item-1-1">Item 1-1</a>
                     <a class="nav-link ml-3 my-1" href="#item-1-2">Item 1-2</a>
                   </nav> -->
 
-                        <h5 class="nav-link-color"><u>Table of Contents</u></h5>
 
-                        <ul>
-                            <li class="nav-item">
+                        <h5 class="nav-link-color"><u>Table of Contents</u></h5>
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="#our-community-of-faith-an-invitation">Our Community of Faith: An Invitation</a>
                             </li>
 
@@ -154,9 +201,8 @@
                         </ul>
 
 
-
-                    </nav>
-                </nav>
+                    <!-- </nav> -->
+                <!-- </nav> -->
             </div>
 
             <div class="col-xl-10 col-lg-9 col-md-9 col-sm-12 col-12 scroll-text-body">
@@ -367,15 +413,7 @@
                                 of radical hospitality that we believe will draw others to our pews and better mirror the
                                 God's Reign.</p>
 
-                            <blockquote class="blockquote text-left p-more-quote">
-                                <p class="mb-0">
-                                    <i class="fas fa-quote-left fa-3x mr-3 mt-5"></i>We have work to do in learning to be open and affirming and far more culturally competent.</p>
-                                <cite title="Source Title"> | A St. Andrew's Parishoner</cite>
-                            </blockquote>
-
-
-
-
+                         
                             <p>St. Andrew’s parishioners drive an average of twelve miles to attend services and events at the
                                 Cathedral. We draw from over a dozen zipcodes that extend beyond the counties of Hinds, Rankin,
                                 and Madison</p>
@@ -754,7 +792,7 @@
                             </p>
                             <p>
                                 <div class="row mt-5">
-                                    <div class="col-xl-7 offset-xl-2">
+                                    <div class="col-xl-8 offset-xl-2">
                                         <a target="_blank" href="https://www.gosaints.org/page" class="btn btn-primary btn-lg btn-block rounded-0">More Info about St. Andrew's Episcopal School</a>
                                     </div>
                                 </div>
@@ -893,7 +931,7 @@
                             </ul>
 
                             <div class="row mt-5">
-                                <div class="col-xl-6 offset-xl-3">
+                                <div class="col-xl-8 offset-xl-3">
                                     <a target="_blank" href="http://standrews.ms/history" class="btn btn-primary btn-lg btn-block pr-5 rounded-0">More Info about St. Andrew's History</a>
                                 </div>
                             </div>
@@ -1237,7 +1275,7 @@
                             </p>
 
                             <div class="float-lg-right">
-                                <img class='img-fluid profile-incopy-img-right-ls' src='img/ChildrensChapel.png'>
+                                <img class='img-fluid profile-incopy-img-right-ls' src='img/ChildrensChapel.jpg'>
                             </div>
 
                             <p>During services at present, children participate in “Children’s Chapel” where they learn the
@@ -1291,7 +1329,8 @@
 
 
                                             <div class="carousel-item">
-                                                <img class="d-block w-100" src="img/VBS6.jpg" alt="Sixth slide">
+                                                <img class="d-block w-100" src="img/VBSKids.jpg
+                                                " alt="Sixth slide">
                                             </div>
 
 
@@ -2133,127 +2172,47 @@
                                         <p class="mb-0">
                                             <i class="fas fa-quote-left fa-3x mr-3 mt-5"></i> 
                                         <p>
-                                            <em>Blessed be the longing that brought us here
-                                                <br /> and quickens our souls with wonder.</em>
+                                            Blessed be the longing that brought us here
+                                                and quickens our souls with wonder.
                                         </p>
                                         <p>
-                                            <em>May we have the courage to listen to the voice of desire
-                                                <br /> that disturbs us when we have settled for something safe.</em>
+                                            May we have the courage to listen to the voice of desire
+                                                that disturbs us when we have settled for something safe.
                                         </p>
                                         <p>
-                                            <em>May we have the wisdom to enter generously into our own unease
-                                                <br /> to discover the new direction our longing wants us to take.</em>
+                                            May we have the wisdom to enter generously into our own unease
+                                                to discover the new direction our longing wants us to take.
                                         </p>
                                         <p>
-                                            <em>May the forms of our belonging – in love, creativity, and friendship –
-                                                <br /> be equal to the grandeur and the call of our souls.</em>
+                                            May the forms of our belonging – in love, creativity, and friendship –
+                                                be equal to the grandeur and the call of our souls.
                                         </p>
                                         <p>
-                                            <em>May the one we long for long for us.
-                                                <br />
-                                            </em>
+                                            May the one we long for long for us.
+                                                                                            
                                         </p>
                                         <p>
-                                            <em>May our dreams gradually reveal the destination of our desires.</em>
+                                            May our dreams gradually reveal the destination of our desires.
                                         </p>
                                         <p>
-                                            <em>May a secret providence guide our thoughts and nurture our feelings.</em>
+                                            May a secret providence guide our thoughts and nurture our feelings.
                                         </p>
                                         <p>
-                                            <em>May we come to accept our longing as divine urgency.
-                                                <br />
-                                            </em>
+                                            May we come to accept our longing as divine urgency.
+                                                                                            
                                         </p>
                                         <p>
-                                            <em>May we know the urgency with which God longs for us. Amen.</em>
+                                            May we know the urgency with which God longs for us. Amen.
                                         </p>
                                         <p>
                                         <cite title="Source Title"> | -adapted from John O’Donohue’s “The Longing” from >To Bless the Space Between Us (Doubleday, 2008)</p></cite>
                                     </blockquote>
                             
                                
-                            <p>Cathedral Clergy</p>
-                            <p>The Very Reverend Ron Pogue, Interim Dean</p>
-                            <p>The Reverend Canon Jennifer Deaton, Canon for Pastoral Care</p>
-                            <p>The Reverend Canon Katie Bradshaw, Canon for Lifelong Formation and Mission</p>
-                            <p>The Reverend Kirk LaFon, Chaplain to St. Andrew’s Episcopal School</p>
-                            <p>The Reverend Annie Elliott, Chaplain to St. Andrew’s Episcopal School</p>
-                            <p>The Reverend Hailey Allin, Chaplain to St. Andrew’s Episcopal School</p>
-                            <p>Chaplains for St. Andrew’s Episcopal School are appointed by the Dean in collaboration with the
-                                Head of School.</p>
-                            <table>
-                                <thead>
-                                    <tr class="header">
-                                        <th>
-                                            <strong>Cathedral Vestry</strong>
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="odd">
-                                        <td></td>
-                                        <td>Charles Johnson, Senior Warden</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr class="even">
-                                        <td>Joe Surkin, Junior Warden</td>
-                                        <td>Justin Croft, Treasurer</td>
-                                        <td>David Allen, Vestry Clerk</td>
-                                    </tr>
-                                    <tr class="odd">
-                                        <td>
-                                            <em>Terms end 2018</em>
-                                        </td>
-                                        <td>
-                                            <em>Terms end 2019</em>
-                                        </td>
-                                        <td>
-                                            <em>Terms end 2020</em>
-                                        </td>
-                                    </tr>
-                                    <tr class="even">
-                                        <td>Ann Anderson</td>
-                                        <td>Ellen Bourdeaux</td>
-                                        <td>Ben Bryant</td>
-                                    </tr>
-                                    <tr class="odd">
-                                        <td>Henderson Hall</td>
-                                        <td>Susan Cain</td>
-                                        <td>Robert Langford</td>
-                                    </tr>
-                                    <tr class="even">
-                                        <td>Garland Lyell</td>
-                                        <td>Frank Farmer</td>
-                                        <td>Carol Penick</td>
-                                    </tr>
-                                    <tr class="odd">
-                                        <td>V.V Selman</td>
-                                        <td>Robert Hauberg, Jr.</td>
-                                        <td>Rose Lee Robinson</td>
-                                    </tr>
-                                    <tr class="even">
-                                        <td>Stephen Stray</td>
-                                        <td>Kevin Lewis</td>
-                                        <td>Sara Anne White</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <p>Cathedral Staff</p>
-                            <p>James Ballard, Lead Sexton</p>
-                            <p>Ruth Fletcher, Parish Life Coordinator</p>
-                            <p>Josh Geter, Communications Director</p>
-                            <p>Laurie McCarley, Membership Coordinator</p>
-                            <p>Rachel Misenar, Coordinator of Children’s Ministries</p>
-                            <p>Jessica Nelson, Organist &amp; Choirmaster</p>
-                            <p>James Veals, Sexton</p>
-                            <p>Tom Williams, Business Administrator</p>
-                            
-                            <p>Cathedral of St. Andrew</p>
-                            <p>Jackson, Mississippi</p>
+                          
                         </div>
 
-                    </div>
-                </div>
+                   
             </div>
         </div>
         <!-- end row flex div -->
@@ -2281,10 +2240,12 @@
     <script>
         //From: https://stackoverflow.com/a/50133772/2501386
 
+
+        
         $(document).ready(function () {
-            $(".nav-link").click(function () {
+        $("#navbar-search-body .nav-link").click(function () {
                 var item = $(this).attr("href");
-                $('.active').removeClass('active');
+                $('li.active').removeClass('active');
                 $("html, body").animate({
                     scrollTop: $(item).offset().top - 50
                 }, {
@@ -2294,7 +2255,7 @@
                     target: '#navbar-search-body',
                     offset: 100
                 });
-                $(this).parent().addClass('active');
+              $(this).parent().addClass('active');
 
                 return false;
             });
@@ -2456,8 +2417,50 @@
                 }
             }
         });
+
+
+        
+  AOS.init(
+      {
+        startEvent: 'DOMContentLoaded',
+        duration: 1000
+      }
+  );
+
     </script>
 
 </body>
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Profile Committee and Dean Search Committee Update</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+        
 
+                    <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"  height="403"
+                            allowTransparency="true"
+                            frameborder="0"
+                            scrolling="no"
+                            style="width:100%;border:none"
+                            src="https://standrewsjxn.wufoo.com/embed/q10by1pp05cg5di/">
+                                
+                            </iframe>
+                          </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
 </html>
+
+
+

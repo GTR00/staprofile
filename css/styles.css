@@ -105,8 +105,16 @@ cite[title] {
 
 } */
 
+#apply{
+    background: rgb(12, 98, 170);
+    background: linear-gradient(145deg, rgba(12, 98, 170, 1) 0%, rgba(124, 11, 156, 0.6554184173669468) 81%) !important;
+    color: white !important;
+    font-weight: 600;
+}
+
 .btn-primary {
     background-color: #0B4D9C !important;
+   
 }
 
 /* .navbar-collapse{
@@ -215,6 +223,18 @@ li.nav-item.pl-3.noimagemobile {
     left: 10%;
     color: white;
 }
+
+i.fas.fa-chevron-down{
+    display: block;
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    height: 4em;
+    color:white;
+    
+}
+
+
 
 h1.position-hero-text {
     font-size: 5em;
@@ -480,6 +500,9 @@ div.accordion .btn {
 
 #navbar-search-body li.nav-item>a.nav-link {
     color: white !important;
+   
+   
+    
 }
 
 #navbar-search-body {
@@ -511,20 +534,18 @@ div.cd-scrolling-bg h2[id]:before {
     display: block;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
+#navbar-search-body .nav-pills .nav-link.active {
     border-bottom: 2px solid white;
     border-top: 2px solid white;
     background-color: inherit;
     border-radius: 0;
     transition: border ease 500ms;
-    color: black !important;
+    color: white !important;
 }
 
-.nav-pills,
-.nav-pills .show>.nav-link {
-    border-bottom: 2px solid transparent !important;
-    border-top: 2px solid transparent !important;
+#navbar-search-body .nav-pills .nav-link {
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
     background-color: inherit;
     border-radius: 0;
 }
@@ -592,7 +613,7 @@ div.cd-scrolling-bg h2[id]:before {
 }
 
 .cd-fixed-bg.cd-fixed-bg--Financial {
-    background-image: url("/img/Stewardship2018.jpg");
+    background-image: url("/img/Stewardship2018-01.jpg");
     /* background-position: 450px 75px;
  background-size:1440px; */
 }
@@ -613,7 +634,7 @@ div.cd-scrolling-bg h2[id]:before {
 }
 
 .cd-fixed-bg.cd-fixed-bg--jacksonMap {
-    background-image: url("/img/jacksonMap.png");
+    background-image: url("/img/jacksonMap.jpg");
     /* background-size: contain; */
 }
 
@@ -678,7 +699,7 @@ footer p {
         background-color: #0B4D9C;
         margin: 10px 50px 0px 0px;
     }
-}
+
 
 .position-hero-text {
     font-size: 3em;
