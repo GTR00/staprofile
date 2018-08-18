@@ -31,15 +31,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 
 
-
     <title>About</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <nav id="nav-container" class="navbar navbar-expand-lg navbar-dark fixed-top">
-
-
             <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,30 +44,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
-                <ul class="navbar-nav mx-auto pr-3 nav-color-menubg">
+                <ul class="navbar-nav mx-auto nav-color-menubg">
                     <li class="nav-item pl-3">
-                        <a href="main.html" class="nav-link text-dark">Home</a>
+                        <a href="profile.html" class="nav-link text-dark">Profile</a>
                     </li>
                     <li class="nav-item pl-3">
                         <a href="about.html" class="nav-link text-dark">About</a>
                     </li>
-                    <li class="nav-item pl-3 mr-3">
-                        <a href="updates.html" class="nav-link text-dark">Updates</a>
-                    </li>
 
-
-                    <li id='nav-logo-size' class="nav-item noimagemobile ml-4">
+                     <li id='nav-logo-size' class="nav-item noimagemobile ml-4">
                         <!-- <a href="#" class="nav-link text-dark"> -->
                         <img src='img/StAndrewsCrest120x140.png'>
                         <!-- </a> -->
                     </li>
 
-                    <li class="nav-item pl-3">
+                    <li class="nav-item mr-3">
+                        <a href="updates.html" class="nav-link text-dark">Updates</a>
+                    </li>
+
+
+                   
+
+                    <!-- <li class="nav-item pl-3">
                         <a href="profile.html" class="nav-link text-dark">Profile</a>
                     </li>
                     <li class="nav-item pl-3">
                         <a href="#" class="nav-link text-dark">Apply</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item pl-3">
                         <a href="#" class="nav-link text-dark">Nominate</a>
                     </li>
@@ -79,7 +79,12 @@
 
 
             </div>
-            <button type="button" class="pl-5 pr-5 btn border-primary text-primary bg-transparent btn-lg rounded-0 mr-3">Apply</button>
+            <button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#exampleModalCenter">
+                    Apply
+                  </button>
+                  
+                  
+                  
         </nav>
 
     </div>
@@ -556,13 +561,11 @@
         </div>
     </div>
 
-
     <div class="row justify-content-center m-3">
         <div class="col-xl-8">
             <h4>Alex Sullivan</h4>
 
             <img src="/img/Alexx125.jpg" alt="..." class="float-left pr-3">
-
 
             <p>
                 Alex Sullivan, a member of the Cathedral Choir at St. Andrew’s Cathedral, works as a judicial law clerk at the Mississippi Supreme Court for Presiding Justice Jim Kitchens. He graduated from Mississippi College School of Law and was admitted to the Mississippi Bar in 2013. In August 2017, he was sworn in to practice before the United States Supreme Court by the Chief Justice of the United States, the Honorable John G. Roberts, Jr., in a unique ceremony at the Mississippi Supreme Court during the Chief Justice’s visit, which was in conjunction with the Mississippi Bicentennial.</p>
@@ -617,7 +620,34 @@
     </div>
 
 
+    <div class="survey-button">
+        <button id='survey' type="button" class="pl-3 pr-3 pt- btn  text-primary btn-lg rounded-0" data-toggle="modal" data-target="#surveyModalCenter">
+            <div class="survey-button-text">Feedback</div>
+          </button>
+          </div>
 
+
+          <div class="modal fade bd-example-modal-lg" id="surveyModalCenter" tabindex="-1" role="dialog" aria-labelledby="surveyModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="surveyModalCenterTitle">Feedback Update</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+            
+    
+                    <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd5ypK0uK2J6UnUdlymdc0D7Tk1VFZY1eSl3oyEPpBuM8.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;" href=https://www.surveymonkey.com> Create your own user feedback survey </a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
    
 
 
@@ -648,3 +678,34 @@
 
 
 </body>
+<div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Apply</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+    
+
+                <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"  height="403"
+                        allowTransparency="true"
+                        frameborder="0"
+                        scrolling="no"
+                        style="width:100%;border:none"
+                        src="https://standrewsjxn.wufoo.com/embed/q10by1pp05cg5di/">
+                            
+                        </iframe>
+                      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  </html>

@@ -127,6 +127,9 @@ cite[title] {
     font-size: 1.2em;
 }
 
+ul.navbar-nav.nav-color-menubg {
+    padding-left: 14%;
+}
 .nav-bgcolor {
     background-color: white;
 }
@@ -230,11 +233,47 @@ i.fas.fa-chevron-down{
     top: 85%;
     left: 45%;
     height: 4em;
-    color:white;
+    color:rgba(255, 255, 255, 0.589);
     
 }
 
+.bounce {
+    -moz-animation: bounce 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
+    -o-animation: bounce 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
+    -webkit-animation: bounce 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
+    animation: bounce 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
 
+@-webkit-keyframes bounce {
+    0% { top: 80%; }
+    50% { top: 82%; }
+    70% { top: 82%; }
+    100% { top: 80%; }
+}
+@-moz-keyframes bounce {
+    0% { top: 80%; }
+    50% { top: 82%; }
+    70% { top: 82%; }
+    100% { top: 80%; }
+}
+@-o-keyframes bounce {
+    0% { top: 80%; }
+    50% { top: 82%; }
+    70% { top: 82%; }
+    100% { top: 80%; }
+}
+@-ms-keyframes bounce {
+    0% { top: 80%; }
+    50% { top: 82%; }
+    70% { top: 82%; }
+    100% { top: 80%; }
+}
+@keyframes bounce {
+    0% { top: 80%; }
+    50% { top: 82%; }
+    70% { top: 82%; }
+    100% { top: 80%; }
+}
 
 h1.position-hero-text {
     font-size: 5em;
@@ -525,7 +564,7 @@ div.accordion .btn {
 }
 
 #navbar-search-body ul a {
-    padding-left: 5px;
+    padding-left: 1.3em;
 }
 
 div.cd-scrolling-bg h2[id]:before {
@@ -535,17 +574,18 @@ div.cd-scrolling-bg h2[id]:before {
 }
 
 #navbar-search-body .nav-pills .nav-link.active {
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-    background-color: inherit;
+    /* border-bottom: 1px solid white;
+    border-top: 1px solid white; */
+    background-color: rgba(255, 255, 255, 0.096);
+    transition: all ease 300ms;
     border-radius: 0;
-    transition: border ease 500ms;
+    box-shadow: 0 1px 1px rgba(39, 46, 54, 0.205);
     color: white !important;
+    padding: 1.5em inherit;
 }
-
 #navbar-search-body .nav-pills .nav-link {
-    border-bottom: 2px solid transparent;
-    border-top: 2px solid transparent;
+    /* border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent; */
     background-color: inherit;
     border-radius: 0;
 }
@@ -662,14 +702,47 @@ div.cd-scrolling-bg h2[id]:before {
     background-image: url("/img/StAndrewsLemonAdeStand.jpg");
 }
 
-/*------*****GRAPHS*****-------*/
+/*------*****SURVEY BUTTON*****-------*/
+
+div.survey-button {
+    position: relative;
+} 
+button#survey {
+    position: fixed;
+    left: calc(100% - 80px);
+    top: 80%;
+    transform: rotate(-90deg);
+    border-radius: 5px !important;
+    border: #606060 !important;
+    color:white !important;
+    background-color:rgba(77, 77, 77, 0.568);
+    transition: background ease 500ms;
+    z-index: 10000 !important;
+}
+button#survey:hover {
+    /* border: #606060 !important; */
+    color:white !important;
+    background-color:rgba(71, 0, 107, 0.65);
+}
 
 /*--------FOOTER-----------*/
 
 footer {
     background-color: #0B4D9C;
     height: 250px;
-    width: 100%
+    width: 100%;
+     
+}
+
+.footerUpdate {
+    background-color: #0B4D9C;
+    position: absolute;
+    /* padding: 9rem; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    
 }
 
 footer i {
@@ -750,4 +823,8 @@ button.navbar-toggler {
     }
 }
 
+@media (max-width: 540){
+
+
+}
 /*-------------TEST CSS------------*/

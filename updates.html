@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="height:100%" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -28,14 +28,13 @@
 
 
 
+
     <title>Updates</title>
 </head>
 
-<body>
+<body style="padding-bottom:300px;">
     <div class="container-fluid">
         <nav id="nav-container" class="navbar navbar-expand-lg navbar-dark fixed-top">
-
-
             <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,30 +42,33 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
-                <ul class="navbar-nav mx-auto pr-3 nav-color-menubg">
-                    <li class="nav-item pl-3">
-                        <a href="main.html" class="nav-link text-dark">Home</a>
-                    </li>
-                    <li class="nav-item pl-3">
-                        <a href="about.html" class="nav-link text-dark">About</a>
-                    </li>
-                    <li class="nav-item pl-3 mr-3">
-                        <a href="updates.html" class="nav-link text-dark">Updates</a>
-                    </li>
-
-
-                    <li id='nav-logo-size' class="nav-item noimagemobile ml-4">
-                        <!-- <a href="#" class="nav-link text-dark"> -->
-                            <img src='img/StAndrewsCrest120x140.png'>
-                        <!-- </a> -->
-                    </li>
-
+                <ul class="navbar-nav mx-auto nav-color-menubg">
                     <li class="nav-item pl-3">
                         <a href="profile.html" class="nav-link text-dark">Profile</a>
                     </li>
                     <li class="nav-item pl-3">
-                        <a href="#" class="nav-link text-dark">Apply</a>
+                        <a href="about.html" class="nav-link text-dark">About</a>
                     </li>
+
+                     <li id='nav-logo-size' class="nav-item noimagemobile ml-4">
+                        <!-- <a href="#" class="nav-link text-dark"> -->
+                        <img src='img/StAndrewsCrest120x140.png'>
+                        <!-- </a> -->
+                    </li>
+
+                    <li class="nav-item mr-3">
+                        <a href="updates.html" class="nav-link text-dark">Updates</a>
+                    </li>
+
+
+                   
+
+                    <!-- <li class="nav-item pl-3">
+                        <a href="profile.html" class="nav-link text-dark">Profile</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a href="#" class="nav-link text-dark">Apply</a>
+                    </li> -->
                     <li class="nav-item pl-3">
                         <a href="#" class="nav-link text-dark">Nominate</a>
                     </li>
@@ -75,7 +77,12 @@
 
 
             </div>
-
+            <button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#applyButton">
+                    Apply
+                  </button>
+                  
+                  
+                  
         </nav>
 
     </div>
@@ -112,7 +119,7 @@
                           
                             <div class="modal-content">
                             <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalCenterTitle">Profile Committee and Dean Search Committee Update</h5>
+                              <h5 class="modal-title" id="exampleModalCenterTitle">Search Committee Update</h5>
                           
                           
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -283,34 +290,91 @@
             </div>
         </div>
      -->
-<div class="container">
-    <div class="row mb-5"></div>
-</div>
+     <div class="survey-button">
+        <button id='survey' type="button" class="pl-3 pr-3 pt- btn  text-primary btn-lg rounded-0" data-toggle="modal" data-target="#surveyModalCenter">
+            <div class="survey-button-text">Feedback</div>
+          </button>
+          </div>
+
+
+          <div class="modal fade bd-example-modal-lg" id="surveyModalCenter" tabindex="-1" role="dialog" aria-labelledby="surveyModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="surveyModalCenterTitle">Feedback Update</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+            
+    
+                    <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd5ypK0uK2J6UnUdlymdc0D7Tk1VFZY1eSl3oyEPpBuM8.js"].join(""),a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;" href=https://www.surveymonkey.com> Create your own user feedback survey </a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
 
 
    
-
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-xl-12">
-                    <p>
-                        <i class="fab fa-facebook fa-3x mr-5 mt-5" aria-hidden="true"></i>
-                        <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
-                    </p>
+          <footer class="footer footerUpdate">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-12">
+                        <p>
+                            <a target="_blank" href="http://facebook.com/yourcathedralinthecity"><i class="fab fa-facebook fa-3x mr-5 mt-5" aria-hidden="true"></i></a>
+                            <a target="_blank" href="http://instagram.com/standrewsjxn"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p>St. Andrew's Episcopal Cathedral</p>
+                    </div>
+    
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <p>St. Andrew's Episcopal Cathedral</p>
-                </div>
+        </footer>
 
-            </div>
-        </div>
-    </footer>
 
 
 
  </body>
+ <div class="modal fade bd-example-modal-lg" id="applyButton" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Apply</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+    
 
+                <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"  height="599"
+                        allowTransparency="true"
+                        frameborder="0"
+                        scrolling="no"
+                        style="width:100%;border:none"
+                        src="https://standrewsjxn.wufoo.com/embed/q10by1pp05cg5di/">
+                        <a href="https://standrewsjxn.wufoo.com/forms/q10by1pp05cg5di/">
+                      
+                        </a>
+                        </iframe>
+                      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
 </html>
+
