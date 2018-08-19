@@ -539,9 +539,16 @@ div.accordion .btn {
 
 #navbar-search-body li.nav-item>a.nav-link {
     color: white !important;
-   
-   
     
+}
+
+.download{
+    /* max-width: 60%; */
+    /* display: inline-block; */
+    margin-left: 10%;
+    white-space: normal !important;
+    word-wrap: break-word;
+    font-size: 1em;
 }
 
 #navbar-search-body {
@@ -753,6 +760,13 @@ footer p {
     color: white;
     text-align: center;
     font-family: 'adobe caslon pro';
+}
+
+
+/*-----------Wufoo Form---------*/
+
+li.section{
+    margin-bottom: 2em !important;
 }
 
 /*--------------------------*/
