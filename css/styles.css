@@ -336,15 +336,15 @@ h1.position-hero-text {
 
 .about-hero-img h2 {
     position: absolute;
-    left: 600px;
+    left: 70%;
     top: 25vh;
-    bottom: auto;
-    right: auto;
+    /* bottom: auto; */
+    /* right: auto; */
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     width: 80%;
-    max-width: 1170px;
+    max-width: 99%;
     margin: 0 auto;
     text-align: center;
     font-size: 5rem;
@@ -554,6 +554,7 @@ div.accordion .btn {
 #navbar-search-body {
     padding-left: 0px;
     padding-right: 5px;
+    overflow-x: hidden;
 }
 
 #navbar-search-body ul {
@@ -691,7 +692,7 @@ div.cd-scrolling-bg h2[id]:before {
 }
 
 .cd-fixed-bg.cd-fixed-bg--PigRoast {
-    background-image: url("/img/StaPigRoastGrill.jpg");
+    background-image: url("/img/staPigRoastGrill.jpg");
     background-position: center-bottom;
 }
 
@@ -780,16 +781,31 @@ li.section{
 @media (max-width: 992px) {
     .noimagemobile {
         display: none !important;
+        
     }
     .white-cathedral-logo {
         background-image: none;
         background-color: #0B4D9C;
-        margin: 10px 50px 0px 0px;
-    }
+        /* margin: 10px 50px 0px 0px; */
+            }
+
+            #accordionExample{
+             margin-top: 0 !important;
+            }
+
+#searchcommittee{
+    max-width: 95% !important;
+    
+}
 
 
 .position-hero-text {
-    font-size: 3em;
+    font-size: 4em !important;
+    text-align: center;
+}
+
+.about-hero-img {
+    font-size: 2em !important;
     text-align: center;
 }
 
@@ -816,14 +832,20 @@ button.navbar-toggler {
 }
 
 .no-mobile-img {
-    display: none;
+    display: none !important;
+}
+
+
+
+#accordionExample{
+    max-width: 99% !important;
 }
 
 }
 
 @media (max-width: 768px) {
     .position-hero-text {
-        font-size: 2em;
+        font-size: 3em !important;
         text-align: center;
     }
     /* .centered-text-over-image {
@@ -834,11 +856,17 @@ button.navbar-toggler {
     } */
     #navbar-search-body {
         display: none !important;
-    }
+
+           }
+
+#accordionExample{
+    max-width: 99% !important;
+}
+.about-hero-img {
+    font-size: 1.7em !important;
+    text-align: center;
+}
 }
 
-@media (max-width: 540){
 
-
-}
 /*-------------TEST CSS------------*/

@@ -122,15 +122,15 @@
     <div class="container-fluid mb-5">
         <div class="row">
 
-            <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="500" class="col-lg-5 mb-5 mr-5 p-5">
+            <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="500" class="col-lg-5 mb-5 mr-5 p-5 no-mobile-img">
 
 
-                <img class='img-maxwidth no-mobile-img search-process-img' src="img/Search-Infographicnotext.png" alt="Dean Search Process Logo">
+                <img class='img-maxwidth  search-process-img' src="img/Search-Infographicnotext.png" alt="Dean Search Process Logo">
 
             </div>
             <div data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="500" class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mr-3 mb-3 ml-3 mt-5">
                 <!-- <h1 class='text-center'>About the Process</h1> -->
-<div class="accordion" id="accordionExample">
+<div class="accordion" id="accordionExample" >
 
     <div class="card">
         <div class="card-header red-profile" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
@@ -309,7 +309,7 @@
         <div class="row blue-bg white-cathedral-logo">
 
 
-            <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 p-3 mr-5 mt-5 ml-5" id="searchcommittee">
+            <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 p-3 mr-5 mt-5 ml-5"  id="searchcommittee">
                 <h1>
                     Meet the Search Committee
                 </h1>
@@ -666,8 +666,8 @@
             <div class="row justify-content-center">
                 <div class="col-xl-12">
                     <p>
-                        <i class="fab fa-facebook fa-3x mr-5 mt-5" aria-hidden="true"></i>
-                        <i class="fab fa-instagram fa-3x" aria-hidden="true"></i>
+                        <a target="_blank" href="http://facebook.com/yourcathedralinthecity"><i class="fab fa-facebook fa-3x mr-5 mt-5" aria-hidden="true"></i></a>
+                        <a target="_blank" href="http://instagram.com/standrewsjxn"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
                     </p>
                 </div>
             </div>
@@ -698,19 +698,30 @@
           </button>
         </div>
         <div class="modal-body">
-    
+        
 
-                <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item"  height="403"
-                        allowTransparency="true"
-                        frameborder="0"
-                        scrolling="no"
-                        style="width:100%;border:none"
-                        src="https://standrewsjxn.wufoo.com/embed/q10by1pp05cg5di/">
-                            
-                        </iframe>
-                      </div>
-        </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <div id="wufoo-q10by1pp05cg5di">
+                    Fill out my <a href="https://standrewsjxn.wufoo.com/forms/q10by1pp05cg5di">online form</a>.
+                    </div>
+                    <script type="text/javascript">var q10by1pp05cg5di;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'standrewsjxn',
+                    'formHash':'q10by1pp05cg5di',
+                    'autoResize':false,
+                    'height':'599',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show',
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { q10by1pp05cg5di = new WufooForm();q10by1pp05cg5di.initialize(options);q10by1pp05cg5di.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>
+                    
+    </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
          
