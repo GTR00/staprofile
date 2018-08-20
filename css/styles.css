@@ -57,6 +57,11 @@ cite[title] {
     color: red;
 }
 
+.subheading{
+    font-size: 2.5em;
+    
+}
+
 /*----------------------------*/
 
 /*--- Extra Padding/Margins ---*/
@@ -672,8 +677,8 @@ div.cd-scrolling-bg h2[id]:before {
 
 .cd-fixed-bg.cd-fixed-bg--bishop {
     background-image: url("/img/ordinatoin3.jpg");
-    /* background-position: 0px -400px; */
-    /* background-position: 500px -400px; */
+    background-position: 300px -400px; */
+    /* background-position: 500px -400px;
 }
 
 .cd-fixed-bg.cd-fixed-bg--BuildonPrograms {
@@ -779,6 +784,11 @@ li.section{
 }
 
 @media (max-width: 992px) {
+    .cd-fixed-bg.cd-fixed-bg--bishop {
+        background-image: url("/img/ordinatoin3.jpg");
+        background-position: 200px -200px;
+    
+    
     .noimagemobile {
         display: none !important;
         
@@ -844,6 +854,12 @@ button.navbar-toggler {
 }
 
 @media (max-width: 768px) {
+    
+    .cd-fixed-bg.cd-fixed-bg--bishop {
+        background-image: url("/img/ordinatoin3.jpg");
+        background-position: 100px -75px;
+    
+    }
     .position-hero-text {
         font-size: 3em !important;
         text-align: center;

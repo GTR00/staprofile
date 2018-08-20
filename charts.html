@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://use.typekit.net/hvu3efd.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css" <!-- Latest compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Montserrat" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="/js/app.js" type="text/JavaScript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <body>
+
+        <canvas id="ageChart" width="400" height="400"></canvas>
+        <canvas id="memberChart" width="400" height="400"></canvas>
+        <script>
+            var ctx = document.getElementById("ageChart").getContext('2d');
+            var ageChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ["0-18", "19-29", "30-39", "40-49", "50-59", "60-69", "70+", "No Age Data"],
+                    datasets: [{
+                        label: 'Number of Parishoners',
+                        data: [205, 105, 123, 96, 106, 193, 260, 115],
+                        backgroundColor: [
+                            'rgba(212, 230, 241, 1)',
+                            'rgba(169, 204, 227, 1)',
+                            'rgba(127, 179, 213, 1)',
+                            'rgba(84, 153, 199, 1)',
+                            'rgba(41, 128, 185, 1)',
+                            'rgba(36, 113, 163, 1)',
+                            'rgba(31, 97, 141, 1)',
+                            'rgba(26, 82, 118, 1)'
+                        ],
+                        
+                    }]
+                },
+                options: {
+
+                    title: {
+                        display: true,
+                        text: 'Parishoners Breakdown by Age',
+                        fontSize: 20,
+                        lineHeight: 3
+
+                    },
+                    legend: {
+
+                        labels: {
+                            fontSize: 15,
+                            padding: 10,
+
+                        },
+
+                    },
+
+                    scales: {
+                        yAxes:[{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                        }]
+                    }
+                }
+            });
+
+
+
+
+
+            var ctx = document.getElementById("memberChart").getContext('2d');
+            var memberChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ["0-4", "5-9", "10-19", "20+"],
+                    datasets: [{
+                        label: 'Length of Membership of Parishoners',
+                        data: [183, 143, 178, 234,],
+                        backgroundColor: [
+                            'rgba(232, 218, 239, 1)',
+                            'rgba(195, 155, 211, 1)',
+                            'rgba(136, 78, 160, 1)',
+                            'rgba(81, 46, 95, 1)',
+                            
+                        ],
+                        borderWidth: 10
+                    }]
+                },
+                options: {
+
+                    title: {
+                        display: true,
+                        text: 'Length of Member in Years',
+                        fontSize: 20,
+                        lineHeight: 3
+
+                    },
+                    legend: {
+
+                        labels: {
+                            fontSize: 15,
+                            padding: 10,
+
+                        },
+
+                    },
+                    
+                }
+            });
+
+
+        </script>
+
+    </body>
+</head>
