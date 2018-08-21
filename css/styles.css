@@ -678,7 +678,7 @@ div.cd-scrolling-bg h2[id]:before {
 .cd-fixed-bg.cd-fixed-bg--bishop {
     background-image: url("/img/ordinatoin3.jpg");
     background-position: 300px -400px; */
-    /* background-position: 500px -400px;
+    /* background-position: 500px -400px;*/
 }
 
 .cd-fixed-bg.cd-fixed-bg--BuildonPrograms {
@@ -775,6 +775,9 @@ li.section{
     margin-bottom: 2em !important;
 }
 
+#apply{
+    color: white !important;
+}
 /*--------------------------*/
 
 @media (max-width: 1600px) {
