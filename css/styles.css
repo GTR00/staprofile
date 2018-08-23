@@ -57,12 +57,13 @@ cite[title] {
     color: red;
 }
 
-.subheading{
+.subheading {
     font-size: 2.5em;
-    
 }
 
 /*----------------------------*/
+
+
 
 /*--- Extra Padding/Margins ---*/
 
@@ -110,8 +111,15 @@ cite[title] {
 
 } */
 
-#apply{
+#apply {
     background: rgb(12, 98, 170);
+    background: linear-gradient(145deg, rgba(12, 98, 170, 1) 0%, rgba(124, 11, 156, 0.6554184173669468) 81%) !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+#nominate {
+    /* background: rgb(12, 98, 170); */
     background: linear-gradient(145deg, rgba(12, 98, 170, 1) 0%, rgba(124, 11, 156, 0.6554184173669468) 81%) !important;
     color: white !important;
     font-weight: 600;
@@ -119,7 +127,6 @@ cite[title] {
 
 .btn-primary {
     background-color: #0B4D9C !important;
-   
 }
 
 /* .navbar-collapse{
@@ -135,8 +142,13 @@ cite[title] {
 ul.navbar-nav.nav-color-menubg {
     padding-left: 14%;
 }
+
 .nav-bgcolor {
     background-color: white;
+}
+
+.nav-font-size{
+    font-size: 1.25em;
 }
 
 /**************  SHRINK LOGO CSS ON SCROLL  *****************/
@@ -232,14 +244,13 @@ li.nav-item.pl-3.noimagemobile {
     color: white;
 }
 
-i.fas.fa-chevron-down{
+i.fas.fa-chevron-down {
     display: block;
     position: absolute;
     top: 85%;
     left: 45%;
     height: 4em;
-    color:rgba(255, 255, 255, 0.589);
-    
+    color: rgba(255, 255, 255, 0.589);
 }
 
 .bounce {
@@ -247,37 +258,81 @@ i.fas.fa-chevron-down{
     -o-animation: bounce 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
     -webkit-animation: bounce 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
     animation: bounce 2s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
-  }
+}
 
 @-webkit-keyframes bounce {
-    0% { top: 80%; }
-    50% { top: 82%; }
-    70% { top: 82%; }
-    100% { top: 80%; }
+    0% {
+        top: 80%;
+    }
+    50% {
+        top: 82%;
+    }
+    70% {
+        top: 82%;
+    }
+    100% {
+        top: 80%;
+    }
 }
+
 @-moz-keyframes bounce {
-    0% { top: 80%; }
-    50% { top: 82%; }
-    70% { top: 82%; }
-    100% { top: 80%; }
+    0% {
+        top: 80%;
+    }
+    50% {
+        top: 82%;
+    }
+    70% {
+        top: 82%;
+    }
+    100% {
+        top: 80%;
+    }
 }
+
 @-o-keyframes bounce {
-    0% { top: 80%; }
-    50% { top: 82%; }
-    70% { top: 82%; }
-    100% { top: 80%; }
+    0% {
+        top: 80%;
+    }
+    50% {
+        top: 82%;
+    }
+    70% {
+        top: 82%;
+    }
+    100% {
+        top: 80%;
+    }
 }
+
 @-ms-keyframes bounce {
-    0% { top: 80%; }
-    50% { top: 82%; }
-    70% { top: 82%; }
-    100% { top: 80%; }
+    0% {
+        top: 80%;
+    }
+    50% {
+        top: 82%;
+    }
+    70% {
+        top: 82%;
+    }
+    100% {
+        top: 80%;
+    }
 }
+
 @keyframes bounce {
-    0% { top: 80%; }
-    50% { top: 82%; }
-    70% { top: 82%; }
-    100% { top: 80%; }
+    0% {
+        top: 80%;
+    }
+    50% {
+        top: 82%;
+    }
+    70% {
+        top: 82%;
+    }
+    100% {
+        top: 80%;
+    }
 }
 
 h1.position-hero-text {
@@ -544,10 +599,9 @@ div.accordion .btn {
 
 #navbar-search-body li.nav-item>a.nav-link {
     color: white !important;
-    
 }
 
-.download{
+.download {
     /* max-width: 60%; */
     /* display: inline-block; */
     margin-left: 10%;
@@ -596,6 +650,7 @@ div.cd-scrolling-bg h2[id]:before {
     color: white !important;
     padding: 1.5em inherit;
 }
+
 #navbar-search-body .nav-pills .nav-link {
     /* border-bottom: 1px solid transparent;
     border-top: 1px solid transparent; */
@@ -677,7 +732,8 @@ div.cd-scrolling-bg h2[id]:before {
 
 .cd-fixed-bg.cd-fixed-bg--bishop {
     background-image: url("/img/ordinatoin3.jpg");
-    background-position: 300px -400px; */
+    background-position: 300px -400px;
+    */
     /* background-position: 500px -400px;*/
 }
 
@@ -719,7 +775,8 @@ div.cd-scrolling-bg h2[id]:before {
 
 div.survey-button {
     position: relative;
-} 
+}
+
 button#survey {
     position: fixed;
     left: calc(100% - 80px);
@@ -727,15 +784,16 @@ button#survey {
     transform: rotate(-90deg);
     border-radius: 5px !important;
     border: #606060 !important;
-    color:white !important;
-    background-color:rgba(77, 77, 77, 0.568);
+    color: white !important;
+    background-color: rgba(77, 77, 77, 0.568);
     transition: background ease 500ms;
     z-index: 10000 !important;
 }
+
 button#survey:hover {
     /* border: #606060 !important; */
-    color:white !important;
-    background-color:rgba(71, 0, 107, 0.65);
+    color: white !important;
+    background-color: rgba(71, 0, 107, 0.65);
 }
 
 /*--------FOOTER-----------*/
@@ -744,7 +802,6 @@ footer {
     background-color: #0B4D9C;
     height: 250px;
     width: 100%;
-     
 }
 
 .footerUpdate {
@@ -755,7 +812,6 @@ footer {
     bottom: 0;
     left: 0;
     z-index: 1030;
-    
 }
 
 footer i {
@@ -768,14 +824,13 @@ footer p {
     font-family: 'adobe caslon pro';
 }
 
-
 /*-----------Wufoo Form---------*/
 
-li.section{
+li.section {
     margin-bottom: 2em !important;
 }
 
-#apply{
+#apply {
     color: white !important;
 }
 
@@ -792,78 +847,64 @@ li.section{
     .cd-fixed-bg.cd-fixed-bg--bishop {
         background-image: url("/img/ordinatoin3.jpg");
         background-position: 200px -200px;
-    
-    } 
+    }
+    .padding-mobile {
+       margin: 10px 0 10px 0;
+       
+       
+    }
     .noimagemobile {
         display: none !important;
-        
     }
     .white-cathedral-logo {
         background-image: none;
         background-color: #0B4D9C;
         /* margin: 10px 50px 0px 0px; */
-            }
-
-            #accordionExample{
-             margin-top: 0 !important;
-            }
-
-#searchcommittee{
-    max-width: 95% !important;
-    
-}
-
-
-.position-hero-text {
-    font-size: 4em !important;
-    text-align: center;
-}
-
-.about-hero-img {
-    font-size: 2em !important;
-    text-align: center;
-}
-
-.centered-text-over-image {
-    position: absolute;
-    top: 5%;
-    left: 18%;
-    color: white;
-}
-
-.nav-color-menubg {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    /* width: 300px; */
-}
-
-.nav-color-menubg ul {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-}
-
-/* change hamburger button border color */
-
-button.navbar-toggler {
-    border-radius: 0px;
-}
-
-.no-mobile-img {
-    display: none !important;
-}
-
-
-
-#accordionExample{
-    max-width: 99% !important;
-}
-
+    }
+    #accordionExample {
+        margin-top: 0 !important;
+    }
+    #searchcommittee {
+        max-width: 95% !important;
+    }
+    .position-hero-text {
+        font-size: 4em !important;
+        text-align: center;
+        margin-top: 2.5em !important;
+    }
+    .about-hero-img {
+        font-size: 2em !important;
+        text-align: center;
+    }
+    .centered-text-over-image {
+        position: absolute;
+        top: 5%;
+        left: 18%;
+        color: white;
+    }
+    .nav-color-menubg {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        /* width: 300px; */
+    }
+    .nav-color-menubg ul {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    /* change hamburger button border color */
+    button.navbar-toggler {
+        border-radius: 0px;
+    }
+    .no-mobile-img {
+        display: none !important;
+    }
+    #accordionExample {
+        max-width: 99% !important;
+    }
 }
 
 @media (max-width: 768px) {
-    
     .cd-fixed-bg.cd-fixed-bg--bishop {
         background-image: url("/img/ordinatoin3.jpg");
         background-position: 100px -75px;
-    
     }
     .position-hero-text {
         font-size: 3em !important;
@@ -877,17 +918,14 @@ button.navbar-toggler {
     } */
     #navbar-search-body {
         display: none !important;
-
-           }
-
-#accordionExample{
-    max-width: 99% !important;
+    }
+    #accordionExample {
+        max-width: 99% !important;
+    }
+    .about-hero-img {
+        font-size: 1.7em !important;
+        text-align: center;
+    }
 }
-.about-hero-img {
-    font-size: 1.7em !important;
-    text-align: center;
-}
-}
-
 
 /*-------------TEST CSS------------*/
