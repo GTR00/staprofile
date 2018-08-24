@@ -120,7 +120,7 @@ cite[title] {
 
 #nominate {
     /* background: rgb(12, 98, 170); */
-    background: linear-gradient(145deg, rgba(12, 98, 170, 1) 0%, rgba(124, 11, 156, 0.6554184173669468) 81%) !important;
+    background-color: rgb(43,100,170, .8) !important;
     color: white !important;
     font-weight: 600;
 }
@@ -140,7 +140,7 @@ cite[title] {
 }
 
 ul.navbar-nav.nav-color-menubg {
-    padding-left: 14%;
+    padding-left: 20%;
 }
 
 .nav-bgcolor {
@@ -759,7 +759,7 @@ div.cd-scrolling-bg h2[id]:before {
 
 .cd-fixed-bg.cd-fixed-bg--OldChurchPhoto {
     background-image: url("/img/StAndrewsOld.jpg");
-    /* background-position: 350px -100px; */
+    background-position: 300px 0px;
 }
 
 .cd-fixed-bg.cd-fixed-bg--longFor {
@@ -843,10 +843,25 @@ li.section {
     }
 }
 
+@media (max-width: 1400px){
+    .cd-fixed-bg.cd-fixed-bg--OldChurchPhoto {
+        background-image: url("/img/StAndrewsOld.jpg");
+        background-position: 125px 0px;
+    }
+    
+}
+
+
+
 @media (max-width: 992px) {
     .cd-fixed-bg.cd-fixed-bg--bishop {
         background-image: url("/img/ordinatoin3.jpg");
         background-position: 200px -200px;
+    }
+
+    .cd-fixed-bg.cd-fixed-bg--OldChurchPhoto {
+        background-image: url("/img/StAndrewsOld.jpg");
+        background-position: 0px 0px;
     }
     .padding-mobile {
        margin: 10px 0 10px 0;

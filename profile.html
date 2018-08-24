@@ -28,7 +28,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/styles.css" <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="/css/styles.css" Latest compiled and minified JavaScript>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Montserrat" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -59,7 +59,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
-                <ul class="navbar-nav mx-auto nav-color-menubg font-weight-light nav-font-size">
+                <ul class="navbar-nav mx-auto nav-color-menubg font-weight-normal nav-font-size">
                     <li class="nav-item pl-3">
                         <a href="profile.html" class="nav-link text-dark">Profile</a>
                     </li>
@@ -73,7 +73,7 @@
                         <!-- </a> -->
                     </li>
 
-                    <li class="nav-item mr-3">
+                    <li class="nav-item mr-1">
                         <a href="updates.html" class="nav-link text-dark">Updates</a>
                     </li>
 
@@ -94,24 +94,26 @@
                 </ul>
             </div>
 
-            <a target="_blank" href="https://standrewsprofile.wufoo.com/forms/q1akzxqo0mgshzm/">
+            <!-- <a target="_blank" href="https://standrewsprofile.wufoo.com/forms/q1akzxqo0mgshzm/">
                 <button id='nominate' type="button" class="padding-mobile pl-4 pr-4 btn  text-primary btn-lg rounded-0 mr-3">
                     Nominate
                 </button>
-            </a>
+            </a> -->
+            <button id='nominate' type="button" class=" pl-3 pr-3 btn text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#nominateModalCenter">
+                Nominate
+              </button>
 
-
-            <a target="_blank" href="https://standrewsprofile.wufoo.com/forms/m15d3sks0ogyqpr/">
+            <!-- <a target="_blank" href="https://standrewsprofile.wufoo.com/forms/m15d3sks0ogyqpr/">
                 <button id='apply' type="button" class="padding-mobile pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3">
                     Apply
                 </button>
-            </a>
-
-
-            <!-- </div>
-            <button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#applyButton">
+            </a> -->
+ <button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#applyButton">
                     Apply
-                  </button> -->
+                  </button>
+
+           
+           
 
         </nav>
 
@@ -2597,25 +2599,22 @@
     </script>
 
 
+
 </body>
-
-
-<!-------------------------------Apply Form--------------------------------------------------------->
-
-<!-- <div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+<!-------------------------------     Apply Form   --------------------------------------------------------->
+<div class="modal fade" id="applyButton" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">Apply</h5>
+                <h5 class="modal-title" id="applyModalCenterTitle">Apply</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
 
-
-                <div class="embed-responsive embed-responsive-16by9">
+                <div style="min-height:calc(100vh - 150px);overflow-y:auto;" class="embed-responsive embed-responsive-16by9">
                         <div id="wufoo-m15d3sks0ogyqpr">
                                 If you are having trouble use this link to submit <a href="https://standrewsprofile.wufoo.com/forms/m15d3sks0ogyqpr">the online form</a>.
                                 </div>
@@ -2624,7 +2623,7 @@
                                 'userName':'standrewsprofile',
                                 'formHash':'m15d3sks0ogyqpr',
                                 'autoResize':false,
-                                'height':'753',
+                                'height':'980',
                                 'async':true,
                                 'host':'wufoo.com',
                                 'header':'show',
@@ -2642,59 +2641,58 @@
                 </div>
             </div>
         </div>
-    </div> -->
-
-
-
-
-
+    </div>
+    </div>
+    </div>
 
 
 
 <!-------------------------------Nominate Form--------------------------------------------------------->
 
-<!-- <div class="modal fade " id="nominateModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+
+<div class="modal fade" id="nominateModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="nominateModalCenterTitle">Apply</h5>
+                <h5 class="modal-title" id="nominateModalCenterTitle">Nomination</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+            
             <div class="modal-body">
+                
+                <div  style="min-height:calc(100vh - 150px);overflow-y:auto;" class="embed-responsive embed-responsive-16by9">
+                    
+                    <div id="wufoo-q1akzxqo0mgshzm">
+                        Fill out my <a href="https://standrewsprofile.wufoo.com/forms/q1akzxqo0mgshzm">online form</a>.
+                        </div>
 
-
-                <div class="embed-responsive embed-responsive-16by9">
-                        <div id="wufoo-m15d3sks0ogyqpr">
-                                If you are having trouble use this link to submit <a href="https://standrewsprofile.wufoo.com/forms/m15d3sks0ogyqpr">the online form</a>.
-                                </div>
-                                <script type="text/javascript">var m15d3sks0ogyqpr;(function(d, t) {
-                                var s = d.createElement(t), options = {
-                                'userName':'standrewsprofile',
-                                'formHash':'m15d3sks0ogyqpr',
-                                'autoResize':false,
-                                'height':'753',
-                                'async':true,
-                                'host':'wufoo.com',
-                                'header':'show',
-                                'ssl':true};
-                                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                                s.onload = s.onreadystatechange = function() {
-                                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                                try { m15d3sks0ogyqpr = new WufooForm();m15d3sks0ogyqpr.initialize(options);m15d3sks0ogyqpr.display(); } catch (e) {}};
-                                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                                })(document, 'script');</script>
-                                
+                        <script type="text/javascript">var q1akzxqo0mgshzm;(function(d, t) {
+                        var s = d.createElement(t), options = {
+                        'userName':'standrewsprofile',
+                        'formHash':'q1akzxqo0mgshzm',
+                        'autoResize':false,
+                        'height':'1102',
+                        'async':true,
+                        'host':'wufoo.com',
+                        'header':'show',
+                        'ssl':true};
+                        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                        s.onload = s.onreadystatechange = function() {
+                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                        try { q1akzxqo0mgshzm = new WufooForm();q1akzxqo0mgshzm.initialize(options);q1akzxqo0mgshzm.display(); } catch (e) {}};
+                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                        })(document, 'script');</script>
+                
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
                 </div>
+</div>
+</div>
             </div>
         </div>
-    </div> -->
-
-
+    </div>
 
 </html>

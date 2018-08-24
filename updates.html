@@ -87,15 +87,18 @@
 
 
             </div>
-            <a target="_blank" href="https://standrewsprofile.wufoo.com/forms/m15d3sks0ogyqpr/"><button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3">
-            Apply
-            </button></a>
+            <button id='nominate' type="button" class=" pl-3 pr-3 btn text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#nominateModalCenter">
+                Nominate
+              </button>
 
-
-            <!-- </div>
-            <button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#applyButton">
+            <!-- <a target="_blank" href="https://standrewsprofile.wufoo.com/forms/m15d3sks0ogyqpr/">
+                <button id='apply' type="button" class="padding-mobile pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3">
                     Apply
-                  </button> -->
+                </button>
+            </a> -->
+ <button id='apply' type="button" class=" pl-5 pr-5 btn  text-primary btn-lg rounded-0 mr-3" data-toggle="modal" data-target="#applyButton">
+                    Apply
+                  </button>
                   
                   
                   
@@ -360,46 +363,98 @@
 
 
  </body>
- <div class="modal fade bd-example-modal-lg" id="applyButton" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<!-------------------------------     Apply Form   --------------------------------------------------------->
+<div class="modal fade" id="applyButton" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Apply</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-        
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="applyModalCenterTitle">Apply</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
 
-            <div class="embed-responsive embed-responsive-16by9">
-                <div id="wufoo-q10by1pp05cg5di">
-                    Fill out my <a href="https://standrewsjxn.wufoo.com/forms/q10by1pp05cg5di">online form</a>.
-                    </div>
-                    <script type="text/javascript">var q10by1pp05cg5di;(function(d, t) {
-                    var s = d.createElement(t), options = {
-                    'userName':'standrewsjxn',
-                    'formHash':'q10by1pp05cg5di',
-                    'autoResize':false,
-                    'height':'599',
-                    'async':true,
-                    'host':'wufoo.com',
-                    'header':'show',
-                    'ssl':true};
-                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                    s.onload = s.onreadystatechange = function() {
-                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                    try { q10by1pp05cg5di = new WufooForm();q10by1pp05cg5di.initialize(options);q10by1pp05cg5di.display(); } catch (e) {}};
-                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                    })(document, 'script');</script>
-                    
-    </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-         
+                <div style="min-height:calc(100vh - 150px);overflow-y:auto;" class="embed-responsive embed-responsive-16by9">
+                        <div id="wufoo-m15d3sks0ogyqpr">
+                                If you are having trouble use this link to submit <a href="https://standrewsprofile.wufoo.com/forms/m15d3sks0ogyqpr">the online form</a>.
+                                </div>
+                                <script type="text/javascript">var m15d3sks0ogyqpr;(function(d, t) {
+                                var s = d.createElement(t), options = {
+                                'userName':'standrewsprofile',
+                                'formHash':'m15d3sks0ogyqpr',
+                                'autoResize':false,
+                                'height':'980',
+                                'async':true,
+                                'host':'wufoo.com',
+                                'header':'show',
+                                'ssl':true};
+                                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                                s.onload = s.onreadystatechange = function() {
+                                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                                try { m15d3sks0ogyqpr = new WufooForm();m15d3sks0ogyqpr.initialize(options);m15d3sks0ogyqpr.display(); } catch (e) {}};
+                                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                                })(document, 'script');</script>
+                                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+    </div>
+    </div>
+
+
+
+<!-------------------------------Nominate Form--------------------------------------------------------->
+
+
+<div class="modal fade" id="nominateModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="nominateModalCenterTitle">Nomination</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            
+            <div class="modal-body">
+                
+                <div  style="min-height:calc(100vh - 150px);overflow-y:auto;" class="embed-responsive embed-responsive-16by9">
+                    
+                    <div id="wufoo-q1akzxqo0mgshzm">
+                        Fill out my <a href="https://standrewsprofile.wufoo.com/forms/q1akzxqo0mgshzm">online form</a>.
+                        </div>
+
+                        <script type="text/javascript">var q1akzxqo0mgshzm;(function(d, t) {
+                        var s = d.createElement(t), options = {
+                        'userName':'standrewsprofile',
+                        'formHash':'q1akzxqo0mgshzm',
+                        'autoResize':false,
+                        'height':'1102',
+                        'async':true,
+                        'host':'wufoo.com',
+                        'header':'show',
+                        'ssl':true};
+                        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                        s.onload = s.onreadystatechange = function() {
+                        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                        try { q1akzxqo0mgshzm = new WufooForm();q1akzxqo0mgshzm.initialize(options);q1akzxqo0mgshzm.display(); } catch (e) {}};
+                        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                        })(document, 'script');</script>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
 </html>
 
